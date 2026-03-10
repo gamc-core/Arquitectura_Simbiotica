@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ENDO
 
 ENDO is an experimental structural emission system derived from the Arquitectura Simbiótica architecture.
@@ -10,4 +11,18 @@ Cells may reference other cells and may be emitted across independent nodes, all
 
 ENDO is currently under active experimentation and development. 
 
+=======
+# ENDO
+
+ENDO is an experimental structural emission system derived from the Arquitectura Simbiótica architecture.
+
+The system is designed to record irreversible structural acts produced by human or non-human agents operating within a shared runtime environment.
+
+Within ENDO, these acts are recorded as structural cells that accumulate over time forming irreversible system trajectory.
+
+Cells may reference other cells and may be emitted across independent nodes, allowing distributed structural relationships to emerge without requiring centralized coordination.
+
+ENDO is currently under active experimentation and development. 
+
+>>>>>>> 4741eef7cf4c9f9ab3169059f2769bbfd3969133
 Some runtime components and infrastructures remain private while selected structural artifacts and execution traces are released publicly.
