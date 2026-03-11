@@ -8,7 +8,7 @@ The entry point does not require prior membership, institutional affiliation or 
 
 Execution within REGIME is defined by structural acts and persistent records.
 
-Experiments occur within an execution regime or experimental environment.
+Experiments occur within an execution regime operating inside an experimental environment.
 
 
 ---
@@ -16,6 +16,7 @@ Experiments occur within an execution regime or experimental environment.
 ## MINIMAL ENTRY CONDITION
 
 An actor may enter REGIME when the following sequence occurs:
+
 
 condition  
 → act  
@@ -137,7 +138,7 @@ References may include:
 
 References may optionally include a location where the referenced record can be observed.
 
-Reference identifiers typically follow the trace identifier format.
+Reference identifiers typically correspond to the identifier associated with the referenced record.
 
 - Examples:
 

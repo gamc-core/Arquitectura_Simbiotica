@@ -65,7 +65,7 @@ Examples of minimal experimental units may include:
 
 ## 5. EXECUTION REGIME
 
-Before an experiment begins, an execution regime must be defined.
+Experiments occur within an execution regime.
 
 The execution regime establishes the operational environment under which the experiment will run.
 
@@ -80,6 +80,8 @@ Examples of regimes include:
 - execution embedded within external systems
 
 REGIME requires that an execution regime exist but does not prescribe its form.
+
+Execution regimes may be declared prior to execution or inferred from persistent trajectory.
 
 ---
 
@@ -426,23 +428,23 @@ REGIME is the operational experimental frame.
 
 Example REGIME experiment:
 
-CONDITION
+- CONDITION
 
 Finite operational window declared
 
-EXECUTION
+- EXECUTION
 
 Structural cell emitted
 
-RECORD
+- RECORD
 
 Execution record stored in runtime environment
 
-EVIDENCE
+- EVIDENCE
 
 Cell ID and runtime log
 
-TRAJECTORY
+- TRAJECTORY
 
 Experiment appended to system history
 
