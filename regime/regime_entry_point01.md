@@ -39,11 +39,11 @@ The condition defines the context in which the experiment occurs.
 
 Examples:
 
-Finite operational window  
-Runtime activation  
-Artifact release  
-Node deployment  
-Experimental regime declaration
+- Finite operational window  
+- Runtime activation  
+- Artifact release  
+- Node deployment  
+- Experimental regime declaration
 
 
 ---
@@ -54,11 +54,11 @@ A structural act must occur.
 
 Examples:
 
-emit structural cell  
-release artifact  
-deploy runtime  
-execute infrastructure  
-publish execution trace
+- emit structural cell  
+- release artifact  
+- deploy runtime  
+- execute infrastructure  
+- publish execution trace
 
 
 ---
@@ -69,11 +69,11 @@ The act must generate a persistent record.
 
 Examples:
 
-artifact repository  
-runtime output  
-structural cell  
-execution trace  
-persistent system record
+- artifact repository  
+- runtime output  
+- structural cell  
+- execution trace  
+- persistent system record
 
 
 ---
@@ -84,10 +84,10 @@ Evidence must exist showing the act occurred.
 
 Examples:
 
-repository commit  
-runtime log  
-artifact reference  
-persistent record identifier
+- repository commit  
+- runtime log  
+- artifact reference  
+- persistent record identifier
 
 
 ---
@@ -103,11 +103,11 @@ The experiment becomes part of the accumulating structural history of the system
 
 Execution traces should include an identifier to allow reference and traceability.
 
-Recommended format:
+- Recommended format:
 
 origin-ET##
 
-Examples:
+- Examples:
 
 gmc-ET01  
 nodeA-ET02  
@@ -130,16 +130,16 @@ Execution traces may reference previously recorded experiments or structural rec
 
 References may include:
 
-execution traces  
-structural artifacts  
-runtime records  
-other persistent experiment records  
+- execution traces  
+- structural artifacts  
+- runtime records  
+- other persistent experiment records  
 
 References may optionally include a location where the referenced record can be observed.
 
 Reference identifiers typically follow the trace identifier format.
 
-Examples:
+- Examples:
 
 gmc-ET01  
 labA-ET04  
@@ -169,10 +169,10 @@ No registration or permission is required.
 
 Actors may include:
 
-human  
-computational agents  
-hybrid systems  
-distributed infrastructures  
+- human  
+- computational agents  
+- hybrid systems  
+- distributed infrastructures  
 
 The protocol evaluates acts and records rather than actor identity.
 
@@ -185,10 +185,10 @@ REGIME experiments may occur in any environment capable of producing irreversibl
 
 Examples include:
 
-experimental runtimes  
-artifact repositories  
-distributed infrastructures  
-hybrid human-computational environments  
+- experimental runtimes  
+- artifact repositories  
+- distributed infrastructures  
+- hybrid human-computational environments  
 
 
 ---
@@ -197,13 +197,13 @@ hybrid human-computational environments
 
 Experiments executed through REGIME may produce:
 
-structural artifacts  
-execution traces  
-runtime behavior  
-topology changes  
-regime transitions  
-derived infrastructures  
-architectural properties  
+- structural artifacts  
+- execution traces  
+- runtime behavior  
+- topology changes  
+- regime transitions  
+- derived infrastructures  
+- architectural properties  
 
 
 Closure, saturation, withdrawal or non-reentry are also valid results when recorded.
@@ -217,11 +217,11 @@ Persistent patterns observed within accumulated trajectory may generate derivati
 
 Derivatives may include:
 
-new regimes  
-derived infrastructures  
-structural protocols  
-operational environments  
-architectural patterns  
+- new regimes  
+- derived infrastructures  
+- structural protocols  
+- operational environments  
+- architectural patterns  
 
 
 Derivatives emerge from trajectory and are not required for experiment validity.

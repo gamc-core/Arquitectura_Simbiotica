@@ -121,10 +121,10 @@ Conditions may include:
 
 Examples:
 
-Condition: Finite operational window
-Condition: Node mesh expansion
-Condition: Autonomous emitter activation
-Condition: Regime withdrawal
+- Condition: Finite operational window
+- Condition: Node mesh expansion
+- Condition: Autonomous emitter activation
+- Condition: Regime withdrawal
 
 Conditions do not require prediction of outcome.
 
@@ -396,9 +396,13 @@ Infrastructures provide execution environments.
 Examples:
 
 REGIME
+
 ↓
+
 ENDO
+
 ↓
+
 ENDO NODE
 
 REGIME is infrastructure-agnostic.
@@ -422,19 +426,24 @@ REGIME is the operational experimental frame.
 
 Example REGIME experiment:
 
-Condition
+CONDITION
+
 Finite operational window declared
 
-Execution
+EXECUTION
+
 Structural cell emitted
 
-Record
+RECORD
+
 Execution record stored in runtime environment
 
-Evidence
+EVIDENCE
+
 Cell ID and runtime log
 
-Trajectory
+TRAJECTORY
+
 Experiment appended to system history
 
 ---
