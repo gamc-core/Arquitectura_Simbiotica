@@ -1,25 +1,14 @@
 # REGIME — EXECUTION EXAMPLES
 
-This document provides minimal examples of experiments executed under the REGIME protocol.
-
-- Each example shows how structural experiments may be recorded and how traces may reference previous experiments.
-
-- References may point to any previously recorded experiment regardless of origin.
-
-- References may optionally include a location where the referenced record can be observed.
-
-- Actors execute experiments.
-
-- Origins identify the emission source associated with records or traces.
+This document defines the structural format used to record
+execution traces produced within the REGIME protocol.
 
 
 ---
 
 ## Example 01 — Initial Execution Trace
 
-Context
-
-An actor declares a finite experimental window and executes structural acts within an experimental environment.
+An actor executes structural acts within an experimental environment.
 
 ```bash
 EXECUTION TRACE — gmc-ET01
@@ -51,15 +40,14 @@ Active regime.
 
 ## Example 02 — Experiment Referencing Previous Experiment
 
-Context
-
 A second experiment observes a previous execution and references it as part of its condition.
 
 ```bash
 EXECUTION TRACE — gmc-ET02
 
 Origin: gmc  
-Environment: experimental runtime  
+Environment: experimental runtime
+Date: 2026  
 
 Condition  
 Observation of previous experiment.
@@ -81,6 +69,9 @@ Repository commit.
 
 Trajectory  
 Trace appended to system trajectory.
+
+State  
+Closure.
 ```
 
 ---

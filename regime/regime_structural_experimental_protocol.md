@@ -424,33 +424,7 @@ REGIME is the operational experimental frame.
 
 ---
 
-## 24. MINIMAL EXECUTION EXAMPLE
-
-Example REGIME experiment:
-
-- CONDITION
-
-Finite operational window declared
-
-- EXECUTION
-
-Structural cell emitted
-
-- RECORD
-
-Execution record stored in runtime environment
-
-- EVIDENCE
-
-Cell ID and runtime log
-
-- TRAJECTORY
-
-Experiment appended to system history
-
----
-
-## 25. STATUS
+## 24. STATUS
 
 REGIME formalizes the minimal structural conditions already present in prior execution, artifact production, runtime experimentation and public traces developed within the Arquitectura Simbiótica system.
 
@@ -458,7 +432,7 @@ This version remains provisional and may evolve as experimentation continues.
 
 ---
 
-## 26. RELATED DOCUMENTS
+## 25. RELATED DOCUMENTS
 
 REGIME — Entry Point 01  
 Defines the minimal entry interface required to execute experiments within REGIME.

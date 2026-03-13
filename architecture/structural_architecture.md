@@ -1,23 +1,31 @@
 # Structural Architecture
 
-## Structural Premise
+## Premise
 
-Arquitectura Simbiótica describes a structural architecture for systems where human activity, computational processes and environments operate as participants within the same operational structure.
+Arquitectura Simbiótica defines structural conditions under which human activity, computational processes and environments may operate within the same system.
 
-Rather than defining systems primarily through control hierarchies, fixed roles or centralized coordination, the architecture studies how systems may emerge from minimal irreversible structural acts accumulated over time.
+Rather than relying on predefined control hierarchies or centralized coordination, the architecture studies how systems may emerge from minimal irreversible acts accumulated over time.
+
+These acts generate persistent records that form the structural trajectory of the system.
 
 ---
 
-## Structural Evolution
+## Structural Dynamics
 
-Within this approach, systems are not treated as static constructions but as evolving structures formed through the interaction of participants operating within a shared environment.
+Within this architecture, systems are not treated as static constructions but as evolving structures.
 
-Human actions, computational processes and environmental conditions contribute to the formation and transformation of the system’s structure.
+Human agents, computational processes and environmental conditions act as participants within the same operational environment.
+
+Their interactions generate structural acts that accumulate into observable system history.
+
+Over time, repeated patterns within this trajectory may reveal stable regimes, structural properties or derived infrastructures.
 
 ---
 
 ## Implementation
 
-The architecture does not prescribe a specific implementation. Instead, it defines structural conditions under which hybrid systems may operate and evolve.
+Arquitectura Simbiótica does not prescribe a specific implementation.
 
-Different infrastructures, runtimes and artifacts may emerge from these conditions.
+It defines only the structural conditions under which hybrid systems may operate and evolve.
+
+Different experimental protocols, runtimes and infrastructures may satisfy these conditions.
