@@ -170,6 +170,8 @@ Examples include:
 
 Records are append-only and cannot depend on interpretation for validation.
 
+Execution traces in this repository follow the structure used in existing system traces (ET01, ET02, ET03).
+
 ---
 
 ## 10. STEP 4 — REGISTER EVIDENCE
@@ -434,11 +436,8 @@ This version remains provisional and may evolve as experimentation continues.
 
 ## 25. RELATED DOCUMENTS
 
-REGIME — Entry Point 01  
+REGIME — Entry Point
 Defines the minimal entry interface required to execute experiments within REGIME.
-
-REGIME — Execution Examples  
-Provides minimal examples of experiments executed under the REGIME protocol.
 
 
 ---

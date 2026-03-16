@@ -100,7 +100,4 @@ no trajectory → no system
 REGIME — Structural Experimental Protocol  
 Defines the structural model and execution cycle of REGIME.
 
-REGIME — Execution Examples  
-Provides minimal examples of experiments executed under the protocol.
-
 End of document.
