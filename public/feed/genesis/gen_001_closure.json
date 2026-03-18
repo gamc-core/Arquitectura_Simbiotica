@@ -1,0 +1,13 @@
+{
+  "generation": "gen_0001",
+  "type": "GENESIS_CLOSURE",
+
+  "closed": true,
+  "closed_at": "2026-03-16T20:56:05.205082Z",
+
+  "final_total": 34,
+  "threshold": 50,
+  "time_limit_seconds": 604800,
+
+  "closed_reason": "TIME"
+}

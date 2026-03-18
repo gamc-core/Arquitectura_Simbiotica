@@ -11,15 +11,15 @@ Arquitectura Simbiótica is a structural architecture for systems where human ac
 
 The architecture studies how systems may emerge from minimal irreversible acts rather than predefined control structures.
 
-This repository contains the structural architecture, the experimental protocol (REGIME), a set of publicly released structural artifacts, and the execution traces produced during experimentation.
+This repository contains the structural architecture, the experimental protocol (REGIME), a set of publicly released structural artifacts, the execution traces produced during experimentation, and an observable feed of generational execution.
 
-Infrastructure components remain under active experimental development.
+Infrastructure components remain under active development.
 
 ---
 
 ## Repository Structure
 
-The repository is organized into five layers.
+The repository is organized into six layers.
 
 - architecture/  
 Structural definition of the system.
@@ -28,13 +28,24 @@ Structural definition of the system.
 Public structural artifacts produced by the system.
 
 - infrastructure/  
-Experimental runtime components under development.
+Runtime implementation under active development.
 
 - history/  
 Public execution traces documenting structural events.
 
-- regime/
+- regime/  
 Experimental protocol defining how structural experiments are executed.
+
+- public/feed/  
+Observable snapshots of the system’s generational execution.  
+
+This layer exposes partial structural states derived from runtime,  
+without revealing internal infrastructure.
+
+Includes:
+
+- latest.json (current observable state)  
+- snapshots/ (historical structural cuts)
 
 ---
 
