@@ -49,6 +49,21 @@ Includes:
 
 ---
 
+## Integrity
+
+Public records may include hash-based integrity fields.
+
+These allow independent verification that:
+
+- records have not been modified after publication
+- snapshots remain internally consistent
+
+Internal integrity is enforced by ENDO through hash chaining across runtime records.
+
+External integrity is exposed through deterministic hashing of published snapshots and records.
+
+---
+
 ## Status
 
 The system is under active development. Some infrastructure components remain under private experimentation and are described here only at a high level.
