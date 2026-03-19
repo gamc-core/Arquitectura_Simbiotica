@@ -1,0 +1,17 @@
+{
+  "generation": "gen_0001",
+  "type": "GENESIS_CLOSURE",
+  "closed": true,
+  "closed_at": "2026-03-16T20:56:05.205082Z",
+  "final_total": 34,
+  "threshold": 50,
+  "time_limit_seconds": 604800,
+  "closed_reason": "TIME",
+
+  "snapshot_ref": "../snapshots/gen_0001_001.json",
+
+  "integrity": {
+    "record_hash": "596037973ad09248d7ce15950bd844181c9523dc49dae1d51504e4d28d31b915",
+    "hash_algorithm": "SHA-256"
+  }
+}
