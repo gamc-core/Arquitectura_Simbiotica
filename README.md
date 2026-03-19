@@ -1,69 +1,44 @@
 # Arquitectura Simbiótica
 
-- Status: Active structural architecture
-- Date: 2026-03-09
-- Author: Gonzalo Montero Cavero
-- Maintained under: gamc-core
+- Status: Active structural architecture  
+- Date: 2026-03-09  
+- Author: Gonzalo Montero Cavero  
+- Maintained under: gamc-core  
 
 ---
 
-Arquitectura Simbiótica is a structural architecture for systems where human activity, computational processes and environments operate as participants within the same operational structure.
-
-The architecture studies how systems may emerge from minimal irreversible acts rather than predefined control structures.
-
-This repository contains the structural architecture, the experimental protocol (REGIME), a set of publicly released structural artifacts, the execution traces produced during experimentation, and an observable feed of generational execution.
-
-Infrastructure components remain under active development.
+Arquitectura Simbiótica is a structural architecture in execution, exposing how systems emerge through irreversible acts and recorded trajectories.
 
 ---
 
-## Repository Structure
+## How to navigate
 
-The repository is organized into six layers.
+Navigation:
 
-- architecture/  
-Structural definition of the system.
+- Observe structural state (ENDO feed) → [latest snapshot](public/feed/latest.json)  
+- Browse snapshots → [snapshots](public/feed/snapshots/)  
+- Browse closures → [closures](public/feed/closures/)  
 
-- artifacts/  
-Public structural artifacts produced by the system.
+- Inspect execution traces → [execution traces](history/execution_traces/)
 
-- infrastructure/  
-Runtime implementation under active development.
+- Understand architecture → [structural map](architecture/structural_map.md)  
 
-- history/  
-Public execution traces documenting structural events.
+- Enter protocol (REGIME entry point) → [entry point](regime/regime_entry_point.md)  
+- Inspect structural experimental protocol → [REGIME](regime/regime_structural_experimental_protocol.md)  
 
-- regime/  
-Experimental protocol defining how structural experiments are executed.
+- Explore structural artifacts → [artifacts](artifacts/)  
 
-- public/feed/  
-Observable snapshots of the system’s generational execution.  
+---
 
-This layer exposes partial structural states derived from runtime,  
-without revealing internal infrastructure.
+## What you can do
 
-Includes:
-
-- latest.json (current observable state)  
-- snapshots/ (historical structural cuts)
+- Observe how structural state evolves across generations  
+- Execute experiments under REGIME  
+- Inspect structural records   
+- Verify integrity through public traces
 
 ---
 
 ## Integrity
 
-Public records may include hash-based integrity fields.
-
-These allow independent verification that:
-
-- records have not been modified after publication
-- snapshots remain internally consistent
-
-Internal integrity is enforced by ENDO through hash chaining across runtime records.
-
-External integrity is exposed through deterministic hashing of published snapshots and records.
-
----
-
-## Status
-
-The system is under active development. Some infrastructure components remain under private experimentation and are described here only at a high level.
+Public records include hash-based integrity fields and can be independently verified against repository state and execution traces.

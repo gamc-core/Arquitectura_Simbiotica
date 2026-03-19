@@ -89,6 +89,7 @@ Execution regimes may be declared prior to execution or inferred from persistent
 
 All REGIME experiments follow the same operational cycle.
 
+```
 execution regime
 ↓
 condition
@@ -100,6 +101,7 @@ record
 evidence
 ↓
 trajectory
+```
 
 Each phase must occur in order.
 
@@ -228,7 +230,7 @@ References may optionally include a location where the referenced record can be 
 
 A REGIME experiment may be represented structurally as:
 
-```bash
+```
 REGIME_EXPERIMENT {
 
 experiment_id
@@ -311,6 +313,7 @@ Invalid evidence includes:
 
 An experiment is valid if the following elements exist:
 
+```
 execution regime defined
 +
 condition declared
@@ -320,6 +323,7 @@ structural act executed
 irreversible record produced
 +
 evidence registered
+```
 
 If any element is missing, the experiment is incomplete.
 
@@ -399,15 +403,13 @@ Infrastructures provide execution environments.
 
 Examples:
 
+```
 REGIME
-
 ↓
-
 ENDO
-
 ↓
-
 ENDO NODE
+```
 
 REGIME is infrastructure-agnostic.
 
