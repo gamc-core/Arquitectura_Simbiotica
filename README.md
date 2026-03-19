@@ -33,9 +33,11 @@ Navigation:
 ## What you can do
 
 - Observe how structural state evolves across generations  
-- Execute experiments under REGIME  
-- Inspect structural records   
-- Verify integrity through public traces
+- Execute or replicate experiments under REGIME
+- Enter execution through REGIME only if a condition is established, an act is executed and a record is produced.  
+- Inspect structural records  
+- Verify integrity through public traces  
+
 
 ---
 
