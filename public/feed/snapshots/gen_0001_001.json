@@ -1,0 +1,182 @@
+{
+  "generation": "gen_0001",
+  "snapshot_id": "gen_0001_001",
+  "captured_at": "2026-03-16T20:56:05.205082Z",
+  "count": 34,
+  "items": [
+    {
+      "origin": "echo",
+      "seq_global": 1,
+      "payload": "ENDO Formation Phase complete"
+    },
+    {
+      "origin": "echo",
+      "seq_global": 2,
+      "payload": "ENDO runtime stabilized"
+    },
+    {
+      "origin": "echo",
+      "seq_global": 3,
+      "payload": "ENDO Genesis initialized"
+    },
+    {
+      "origin": "atlas",
+      "seq_global": 4,
+      "payload": "node-relay:#1 signal"
+    },
+    {
+      "origin": "zenith",
+      "seq_global": 5,
+      "payload": "ENDO Genesis cycle established"
+    },
+    {
+      "origin": "leaf",
+      "seq_global": 6,
+      "payload": "ENDO v0.6 autonomous emitters initialized"
+    },
+    {
+      "origin": "ridge",
+      "seq_global": 7,
+      "payload": "mesh:cycle detected node-relay → node-return → node-source → node-relay"
+    },
+    {
+      "origin": "west",
+      "seq_global": 8,
+      "payload": "mesh:cycle detected node-relay → node-return → node-source → node-relay"
+    },
+    {
+      "origin": "axis",
+      "seq_global": 9,
+      "payload": "mesh:cycle detected node-relay → node-return → node-source"
+    },
+    {
+      "origin": "spark",
+      "seq_global": 10,
+      "payload": "mesh:cycle detected node-relay → node-return → node-source"
+    },
+    {
+      "origin": "shore",
+      "seq_global": 11,
+      "payload": "mesh:hub node-return centrality=1"
+    },
+    {
+      "origin": "frost",
+      "seq_global": 12,
+      "payload": "mesh:hub shift [] → node-return"
+    },
+    {
+      "origin": "source",
+      "seq_global": 13,
+      "payload": "mesh:expansion node-source discovered"
+    },
+    {
+      "origin": "signal",
+      "seq_global": 14,
+      "payload": "mesh:expansion node-relay discovered"
+    },
+    {
+      "origin": "thread",
+      "seq_global": 15,
+      "payload": "mesh:expansion node-return discovered"
+    },
+    {
+      "origin": "shore",
+      "seq_global": 16,
+      "payload": "ENDO OPERATIONAL WINDOW 01 initialited"
+    },
+    {
+      "origin": "shore",
+      "seq_global": 17,
+      "payload": "ENDO structural unit concept publicly articulated"
+    },
+    {
+      "origin": "shore",
+      "seq_global": 18,
+      "payload": "OW01 emitters - executed01 - no structural changes detected"
+    },
+    {
+      "origin": "trace",
+      "seq_global": 19,
+      "payload": "architecture:structural repository initialized"
+    },
+    {
+      "origin": "trace",
+      "seq_global": 20,
+      "payload": "architecture:structural architecture published"
+    },
+    {
+      "origin": "trace",
+      "seq_global": 21,
+      "payload": "REGIME structural experimental protocol defined. Status: Private"
+    },
+    {
+      "origin": "path",
+      "seq_global": 22,
+      "payload": "REGIME entry point defined #21"
+    },
+    {
+      "origin": "path2",
+      "seq_global": 23,
+      "payload": "baseline\nnode node00-gmc\nruntime stabilized"
+    },
+    {
+      "origin": "ridge",
+      "seq_global": 24,
+      "payload": "$ emit ridge\npayload (finish with empty line):\ngenesis anchor\ncorrection #23\nnode node00-gamc"
+    },
+    {
+      "origin": "ridge",
+      "seq_global": 25,
+      "payload": "genesis anchor\ncorrection #23\nnode node00-gamc"
+    },
+    {
+      "origin": "vector",
+      "seq_global": 26,
+      "payload": "repo root restructured"
+    },
+    {
+      "origin": "ring",
+      "seq_global": 27,
+      "payload": "node runtime established as executable implementation of the ENDO protocol"
+    },
+    {
+      "origin": "ring",
+      "seq_global": 28,
+      "payload": "structural cells recorded as append-only irreversible acts"
+    },
+    {
+      "origin": "ring",
+      "seq_global": 29,
+      "payload": "origin defined as structural emitter of cells"
+    },
+    {
+      "origin": "anchor",
+      "seq_global": 30,
+      "payload": "generational execution regime established for node operation"
+    },
+    {
+      "origin": "anchor",
+      "seq_global": 31,
+      "payload": "node runtime storage defined as append-only structural history"
+    },
+    {
+      "origin": "anchor",
+      "seq_global": 32,
+      "payload": "endo command introduced as operational interface for node interaction"
+    },
+    {
+      "origin": "ring2",
+      "seq_global": 33,
+      "payload": "endo protocol defined as structural regime governing node execution"
+    },
+    {
+      "origin": "ring2",
+      "seq_global": 34,
+      "payload": "endo architecture established as runtime structure of the endo node"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "1a528fbaea1e23518cd950b1ee6856c535ac871b2a8eb6574b58247e86e4000f",
+    "hash_algorithm": "SHA-256"
+  }
+}
