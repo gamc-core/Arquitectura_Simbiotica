@@ -1,0 +1,181 @@
+{
+  "generation": "gen_0002",
+  "snapshot_id": "gen_0002_002",
+  "captured_at": "2026-03-22T20:38:20.401905Z",
+  "node": {
+    "node_id": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0002",
+    "created_at": "2026-03-16T20:57:29.053469Z",
+    "time_limit_seconds": 604800,
+    "threshold": 50,
+    "max_cells_per_origin": 3,
+    "closed": false,
+    "config_snapshot": {
+      "threshold": 50,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 3,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3
+    },
+    "config_hash": "411a64aff657ce380132e77d821a67f77392c994011ff368093b9e0b60fbaffd"
+  },
+  "index": {
+    "total_cells": 15,
+    "origins_active_count": 6,
+    "last_cell_at": "2026-03-20T22:47:11.127551Z",
+    "cells_by_origin": {
+      "50ab0f9e-e7d0-4d92-af17-9fd54366b5fb": 3,
+      "30f02f56-350b-4ba7-9617-a24c703d80c4": 1,
+      "b42c1916-985d-49a5-a0b1-aaf6fc7f5b3b": 3,
+      "954bc63f-9a78-44bb-82b0-d4181ce9534e": 3,
+      "abfab96a-244f-4a67-a9aa-fe0e47c5a033": 3,
+      "6b86dfc4-2662-4b8f-8dc9-3d238ad6b4b1": 2
+    },
+    "seq_global": 15,
+    "last_chain_hash": "553006f7adf07644cdf23a5d2e54724633d4410b17c35729f78b00da3cf8e23e"
+  },
+  "cells": [
+    {
+      "cell_id": "ae2d1814-3f23-48f8-b2cb-9908c7552218",
+      "origin_id": "50ab0f9e-e7d0-4d92-af17-9fd54366b5fb",
+      "origin": "eddy",
+      "seq_global": 1,
+      "payload": "first generational cycle closed",
+      "hash": "c7b906b0fe4d37185b67872ea0328b9ca47b7e8612ecef63f0fa370ce0b050a2",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "20be1029-a781-4399-8ede-0298a0de2ca8",
+      "origin_id": "50ab0f9e-e7d0-4d92-af17-9fd54366b5fb",
+      "origin": "eddy",
+      "seq_global": 2,
+      "payload": "correction # 1 first generational cycle closed gen_0001 → gen_0002",
+      "hash": "fa17ac24004b63550a05b52f726f588e578434ad008d8de2f41d8cb0f52936f2",
+      "prev_hash": "c7b906b0fe4d37185b67872ea0328b9ca47b7e8612ecef63f0fa370ce0b050a2"
+    },
+    {
+      "cell_id": "5af5b898-7945-4304-9689-c446b20727b8",
+      "origin_id": "50ab0f9e-e7d0-4d92-af17-9fd54366b5fb",
+      "origin": "eddy",
+      "seq_global": 3,
+      "payload": "OW01 operational window completed structural trajectory recorded",
+      "hash": "eafdfed296471281e110540af3eb2c07c52c26d6596297881fb3856a6c3a5e02",
+      "prev_hash": "fa17ac24004b63550a05b52f726f588e578434ad008d8de2f41d8cb0f52936f2"
+    },
+    {
+      "cell_id": "410f618a-c234-4e22-8dfa-4af44cb8a64e",
+      "origin_id": "30f02f56-350b-4ba7-9617-a24c703d80c4",
+      "origin": "axis",
+      "seq_global": 4,
+      "payload": "system trajectory continues under generational execution",
+      "hash": "06feba1dae0c6c041d7b8955c5a0657f258ac462f3521294ab64e0901edeab57",
+      "prev_hash": "eafdfed296471281e110540af3eb2c07c52c26d6596297881fb3856a6c3a5e02"
+    },
+    {
+      "cell_id": "34686225-3e46-4a2e-a30c-f675949300b5",
+      "origin_id": "b42c1916-985d-49a5-a0b1-aaf6fc7f5b3b",
+      "origin": "north",
+      "seq_global": 5,
+      "payload": "structural acts persist as irreversible system history",
+      "hash": "7e64fb0f000f9c83c7b099249a3037570efb26cbcff37b2bec90ffaeb688b03e",
+      "prev_hash": "06feba1dae0c6c041d7b8955c5a0657f258ac462f3521294ab64e0901edeab57"
+    },
+    {
+      "cell_id": "7f9a9873-6716-4ba5-b88b-0cac680bfdf6",
+      "origin_id": "b42c1916-985d-49a5-a0b1-aaf6fc7f5b3b",
+      "origin": "north",
+      "seq_global": 6,
+      "payload": "bounded execution regimes form structural history",
+      "hash": "4567476a6865ec66e9233fed5b84de11c22105f8e50e0099916dcf5ee6d0c739",
+      "prev_hash": "7e64fb0f000f9c83c7b099249a3037570efb26cbcff37b2bec90ffaeb688b03e"
+    },
+    {
+      "cell_id": "53f69a40-f8ba-4efb-9055-5f00acee7ae7",
+      "origin_id": "b42c1916-985d-49a5-a0b1-aaf6fc7f5b3b",
+      "origin": "north",
+      "seq_global": 7,
+      "payload": "generational closure (#1) anchors structural trajectory (#6)",
+      "hash": "cb133a268f2f807eb8d371c8184108fa6104ba6e2d5d1b5850c53c82b2016506",
+      "prev_hash": "4567476a6865ec66e9233fed5b84de11c22105f8e50e0099916dcf5ee6d0c739"
+    },
+    {
+      "cell_id": "00f106bb-7e49-4de5-aa79-03a27c573097",
+      "origin_id": "954bc63f-9a78-44bb-82b0-d4181ce9534e",
+      "origin": "iron",
+      "seq_global": 8,
+      "payload": "multiple origins emerge within generational execution",
+      "hash": "aae8d205546f56d43afca901fe8804b63f07c92b0a72b1dac17b1d7fd55f74b4",
+      "prev_hash": "cb133a268f2f807eb8d371c8184108fa6104ba6e2d5d1b5850c53c82b2016506"
+    },
+    {
+      "cell_id": "f00a5945-1bd3-4842-bf84-e1463edfc28d",
+      "origin_id": "954bc63f-9a78-44bb-82b0-d4181ce9534e",
+      "origin": "iron",
+      "seq_global": 9,
+      "payload": "system execution transitioned from formation to observation",
+      "hash": "da61ad8d63a4825398d4c13f4c34cb01988dd76b9860977d7d022c5aeeb4a497",
+      "prev_hash": "aae8d205546f56d43afca901fe8804b63f07c92b0a72b1dac17b1d7fd55f74b4"
+    },
+    {
+      "cell_id": "7d7117be-268a-4494-ad3e-1d2b7cdc6bcd",
+      "origin_id": "954bc63f-9a78-44bb-82b0-d4181ce9534e",
+      "origin": "iron",
+      "seq_global": 10,
+      "payload": "event log core specification formalized as runtime law",
+      "hash": "fdb8577ae7bf2c25b81d936cedf15f08e42be5f30fb88994b4261944ae66153b",
+      "prev_hash": "da61ad8d63a4825398d4c13f4c34cb01988dd76b9860977d7d022c5aeeb4a497"
+    },
+    {
+      "cell_id": "db942332-38ed-46b6-b696-248fe01b6f0d",
+      "origin_id": "abfab96a-244f-4a67-a9aa-fe0e47c5a033",
+      "origin": "grain",
+      "seq_global": 11,
+      "payload": "system execution exposed through public observable feed layer",
+      "hash": "e05718f105eb9cce7fad16a5c5d4b0f85ca22cfd943539a80b7ebff8784ff51b",
+      "prev_hash": "fdb8577ae7bf2c25b81d936cedf15f08e42be5f30fb88994b4261944ae66153b"
+    },
+    {
+      "cell_id": "55e407f3-8fcd-4fc3-9aef-82ee029bcbaf",
+      "origin_id": "abfab96a-244f-4a67-a9aa-fe0e47c5a033",
+      "origin": "grain",
+      "seq_global": 12,
+      "payload": " correction #10 event core defined as structural existence criterion (not logging)",
+      "hash": "25ea8c604c8c01d770fbbfe30759422fca64fc42409c3df29a46700aee864f9d",
+      "prev_hash": "e05718f105eb9cce7fad16a5c5d4b0f85ca22cfd943539a80b7ebff8784ff51b"
+    },
+    {
+      "cell_id": "0effae15-fe61-4711-9423-d75fe5ee5c2d",
+      "origin_id": "abfab96a-244f-4a67-a9aa-fe0e47c5a033",
+      "origin": "grain",
+      "seq_global": 13,
+      "payload": "event validity anchored to irreversible structural transformation",
+      "hash": "7a0aefcf7e0b0e744c80ff0817888c0bbd2108f9e545b3bf24eeb5a1057ff354",
+      "prev_hash": "25ea8c604c8c01d770fbbfe30759422fca64fc42409c3df29a46700aee864f9d"
+    },
+    {
+      "cell_id": "201dcf9d-e4c1-4a07-a2a5-ac70853b3004",
+      "origin_id": "6b86dfc4-2662-4b8f-8dc9-3d238ad6b4b1",
+      "origin": "delta",
+      "seq_global": 14,
+      "payload": "structural observation activated → generational trajectory derived",
+      "hash": "f3c57b9f92313c6a876e9d10703110af198bcd93f76e38040eaa229e06a2d134",
+      "prev_hash": "7a0aefcf7e0b0e744c80ff0817888c0bbd2108f9e545b3bf24eeb5a1057ff354"
+    },
+    {
+      "cell_id": "fb23e301-b46b-4f45-bb7e-3d4210e0216b",
+      "origin_id": "6b86dfc4-2662-4b8f-8dc9-3d238ad6b4b1",
+      "origin": "delta",
+      "seq_global": 15,
+      "payload": "origin participation directly modulates generational structural density",
+      "hash": "553006f7adf07644cdf23a5d2e54724633d4410b17c35729f78b00da3cf8e23e",
+      "prev_hash": "f3c57b9f92313c6a876e9d10703110af198bcd93f76e38040eaa229e06a2d134"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "d1aed273707fd324296f7497943364c05aff0cfea927ddb0b8e932f4c1f88676",
+    "hash_algorithm": "SHA-256"
+  }
+}

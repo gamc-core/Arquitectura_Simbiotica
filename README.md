@@ -1,47 +1,66 @@
 # Arquitectura Simbiótica
 
 - Status: Active structural architecture  
-- Date: 2026-03-09  
+- Date: 2026-03-22  
 - Author: Gonzalo Montero Cavero  
 - Maintained under: gamc-core  
 
 ---
 
-Arquitectura Simbiótica is a structural architecture in execution, exposing how systems emerge through irreversible acts and recorded trajectories.
+Arquitectura Simbiótica is a structural architecture in execution.
+
+It defines how systems execute, record, emerge and evolve from within through irreversible acts.
 
 ---
 
 ## How to navigate
 
-Navigation:
+The system is organized into exposed layers:
 
-- Observe structural state (ENDO feed) → [latest snapshot](public/feed/latest.json)  
-- Browse snapshots → [snapshots](public/feed/snapshots/)  
-- Browse closures → [closures](public/feed/closures/)
-- Observe structural trajectory → [trajectory](public/feed/trajectory/)  
+- [structural_map.json](structural_map)  
+  → System structure overview  
 
-- Inspect execution traces → [execution traces](history/execution_traces/)
+- [history/latest.json](history/latest.json)  
+  → Current live state  
 
-- Understand architecture → [structural map](architecture/structural_map.md)  
+- [history/execution_traces/](history/execution_traces/)  
+  → Closed generations  
 
-- Enter protocol (REGIME entry point) → [entry point](regime/regime_entry_point.md)  
-- Inspect structural experimental protocol → [REGIME](regime/regime_structural_experimental_protocol.md)  
+- [history/snapshots/](history/snapshots/)  
+  → Temporal states (cells + structure)  
 
-- Explore structural artifacts → [artifacts](artifacts/)  
+- [history/trajectory/](history/trajectory/)  
+  → Structural evolution (intra / inter / global)  
+
+- [artifacts/](artifacts/)  
+  → External outputs  
+
+---
+
+### Navigation logic
+
+- Structural map → system structure  
+- Latest → current state  
+- Execution trace → generation closure  
+- Snapshot → state at a moment  
+- Trajectory → system evolution  
+- Artifacts → system outputs  
+
+The runtime layer is not exposed.  
+All layers are derived from it. 
 
 ---
 
 ## What you can do
 
-- Observe how structural state evolves across generations  
-- Execute or replicate experiments under REGIME
-- Enter execution through REGIME only if a condition is established, an act is executed and a record is produced.  
-- Inspect structural records  
-- Verify integrity through public traces  
-
+- Inspect a live append-only system  
+- Verify integrity through hashes  
+- Analyze evolution across generations  
+- Reconstruct state from snapshots  
+- Validate closures via execution traces  
 
 ---
 
 ## Integrity
 
-Public records include hash-based integrity fields and can be independently verified against repository state and execution traces.
+Public records include hash-based integrity fields and can be independently verified.
