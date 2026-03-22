@@ -17,7 +17,8 @@ Navigation:
 
 - Observe structural state (ENDO feed) → [latest snapshot](public/feed/latest.json)  
 - Browse snapshots → [snapshots](public/feed/snapshots/)  
-- Browse closures → [closures](public/feed/closures/)  
+- Browse closures → [closures](public/feed/closures/)
+- Observe structural trajectory → [trajectory](public/feed/trajectory/)  
 
 - Inspect execution traces → [execution traces](history/execution_traces/)
 

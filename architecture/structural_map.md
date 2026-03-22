@@ -12,7 +12,13 @@ These trajectories are not predefined but emerge through execution.
 
 ---
 
-## Structural Flow
+## Structural Flows
+
+The architecture operates through three concurrent flows.
+
+---
+
+### Execution Flow
 
 ```
 REGIME  
@@ -25,9 +31,27 @@ STRUCTURAL ACTS
 ↓  
 ARTIFACTS  
 ↓  
-EXECUTION TRACES  
+EXECUTION TRACES
+```
+
+---
+
+### Exposure Flow
+
+```
+ENDO  
 ↓  
-PUBLIC FEED  
+PUBLIC FEED
+```
+
+---
+
+### Derivation Flow
+
+```
+ENDO / PUBLIC FEED  
+↓  
+STRUCTURAL OBSERVATION  
 ↓  
 STRUCTURAL TRAJECTORY
 ```
@@ -132,15 +156,51 @@ They document.
 
 ### PUBLIC FEED
 
-Type: Observable layer derived from ENDO.
+Type: Observable layer derived from ENDO
 
 Exposes observable structural state externally.
 
 - snapshots (state)  
 - closures (cycle completion)  
+- trajectory (derived state, externally exposed)  
 - latest (current state pointer)  
 
 Public feed enables observation without internal access.
+
+---
+
+### STRUCTURAL OBSERVATION
+
+Type: Derived layer
+
+Processes observable records to extract structural signals.
+
+- aggregates snapshots  
+- computes metrics  
+- derives structural states  
+
+Structural observation is an internal derivation process.
+
+It may operate over ENDO or its exposed representations.
+
+It is not directly exposed as a public layer.  
+It produces derived outputs such as trajectory.
+
+---
+
+### STRUCTURAL TRAJECTORY
+
+Type: Derived state
+
+Encodes the structural behavior of the system across generations.
+
+- intra-generational state  
+- inter-generational state  
+- growth vectors  
+- saturation levels  
+
+Trajectory is computed from observation.  
+It does not alter execution.
 
 ---
 
@@ -166,6 +226,5 @@ Behavior emerges from execution under these conditions.
 - trajectory  
 - state  
 
-Execution traces do not simulate.
-
+Execution traces do not simulate.  
 They document.
