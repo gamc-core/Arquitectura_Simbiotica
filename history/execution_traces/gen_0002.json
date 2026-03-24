@@ -1,0 +1,24 @@
+{
+  "execution_trace_id": "et-gen_0002",
+  "generation": "gen_0002",
+  "node": {
+    "node_id": "node00-gamc"
+  },
+  "closure": {
+    "closed": true,
+    "closed_at": "2026-03-23T23:03:15.199534Z",
+    "final_total": 15,
+    "threshold": 50,
+    "time_limit_seconds": 604800,
+    "closed_reason": "TIME"
+  },
+  "evidence": {
+    "closure_ref": "core/endo_node/runtime/generations/gen_0002/cycle_closed.json",
+    "index_ref": "core/endo_node/runtime/generations/gen_0002/index.json",
+    "meta_ref": "core/endo_node/runtime/generations/gen_0002/gen_meta.json"
+  },
+  "integrity": {
+    "record_hash": "e79dd3232e5d5d9ec1587dc94d9165ec629477184be27236ca7445faa5a533b3",
+    "hash_algorithm": "SHA-256"
+  }
+}

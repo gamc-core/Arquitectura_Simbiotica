@@ -130,10 +130,10 @@ NODE executes.
 
 Type: Emitter
 
-Source capable of emitting structural acts.
+Structural emission point capable of producing acts within a regime.
 
 - identified by origin_id  
-- enables structural emission  
+- defines a distinct emission source  
 
 Origin emits.
 
@@ -143,7 +143,7 @@ Origin emits.
 
 Type: Execution units
 
-Acts performed by origins during runtime.
+Structural events emitted by origins during runtime.
 
 - may produce structural change  
 - sequenced in generations  

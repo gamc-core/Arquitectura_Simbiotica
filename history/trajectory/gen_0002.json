@@ -1,0 +1,33 @@
+{
+  "generation": "gen_0002",
+  "node": {
+    "node_id": "node00-gamc"
+  },
+  "source": {
+    "type": "runtime"
+  },
+  "intra": {
+    "emission_density": 0.3,
+    "origin_distribution": "uniform",
+    "reference_usage": 0.1333
+  },
+  "inter": {
+    "generation_delta": "contracting",
+    "origin_shift": "high",
+    "structural_shift": "significant"
+  },
+  "global": {
+    "total_generations": 2,
+    "total_cells": 49,
+    "total_origins": 27
+  },
+  "structure": {
+    "origin_persistence": null,
+    "origin_turnover": null,
+    "regime_behavior": "unknown"
+  },
+  "integrity": {
+    "trajectory_hash": "725899353512b5ff812227434db33e2ef1fa1f0445ded34d99a712dac55b757e",
+    "hash_algorithm": "SHA-256"
+  }
+}
