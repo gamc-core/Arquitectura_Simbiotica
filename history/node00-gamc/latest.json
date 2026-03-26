@@ -1,0 +1,19 @@
+{
+  "generation": "gen_0003",
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "status": {
+    "closed": false
+  },
+  "index": {
+    "total_cells": 8,
+    "origins_active_count": 4,
+    "last_chain_hash": "42d865de5fc48cdc2607297c469ce24c985fa0aac145ce79ba3000586fbe6002"
+  },
+  "evidence": {
+    "index_ref": "node00-gamc/runtime/generations/gen_0003/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0003/gen_meta.json"
+  }
+}
