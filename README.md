@@ -20,17 +20,17 @@ The system is organized into exposed layers:
 - [structural_map.json](structural_map)  
   → System structure overview  
 
-- [history/latest.json](history/latest.json)  
-  → Current live state  
+- [history/node00-gamc/latest.json](history/node00-gamc/latest.json)  
+  → Current live state (origin node)
 
-- [history/execution_traces/](history/execution_traces/)  
+- [history/node00-gamc/execution_traces/](history/node00-gamc/execution_traces/)  
   → Closed generations  
 
-- [history/snapshots/](history/snapshots/)  
+- [history/node00-gamc/snapshots/](history/node00-gamc/snapshots/)  
   → Temporal states (cells + structure)  
 
-- [history/trajectory/](history/trajectory/)  
-  → Structural evolution (intra / inter / global)  
+- [history/node00-gamc/trajectory/](history/node00-gamc/trajectory/)  
+  → Structural evolution
 
 - [artifacts/](artifacts/)  
   → External outputs  
@@ -58,6 +58,16 @@ All layers are derived from it.
 - Analyze evolution across generations  
 - Reconstruct state from snapshots  
 - Validate closures via execution traces  
+
+---
+
+## Scope
+
+Origin node: node00-gamc
+
+Only the origin node is publicly exposed.
+
+Other nodes are not part of this repository.
 
 ---
 
