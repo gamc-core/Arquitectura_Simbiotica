@@ -10,7 +10,7 @@ Execution produces irreversible records.
 
 Records accumulate as history.
 
-Derivation emerges from recorded history.
+Structure and derivations emerges from recorded history.
 
 ---
 
@@ -27,7 +27,7 @@ ENDO NODE
 ↓  
 ORIGIN  
 ↓  
-STRUCTURAL ACTS  
+EMISSIONS 
 ↓  
 CELL  
 ↓  
@@ -70,10 +70,12 @@ EXTERNAL ACCESS
 
 Type: Law
 
-Defines the minimal condition under which a structural change exists.
+Defines the minimal condition under which an event exists.
 
-- irreversible transformation  
-- no transformation → no event  
+- irreversible occurrence  
+- no occurrence → no event  
+
+Structural change is not guaranteed per event.
 
 ---
 
@@ -139,17 +141,16 @@ Origin emits.
 
 ---
 
-### STRUCTURAL ACTS
+### EMISSIONS
 
 Type: Execution units
 
-Structural events emitted by origins during runtime.
+Irreversible outputs emitted by origins during runtime.
 
-- may produce structural change  
 - sequenced in generations  
 - emitted without interpretation  
 
-Acts occur.  
+Emissions occur.
 
 ---
 
@@ -229,7 +230,7 @@ Artifacts extend system externally.
 
 Type: Derived state
 
-Structural behavior across generations.
+Derived structural behavior across generations.
 
 - intra-generational  
 - inter-generational  
@@ -254,8 +255,10 @@ It does not alter execution.
 
 ## Principle
 
-Execution produces structure.  
+Execution produces records.
 
-Structure becomes history.  
+Records accumulate as history.
+
+Structure emerges from history. 
  
 History reveals trajectory.
