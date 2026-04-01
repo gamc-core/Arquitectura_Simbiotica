@@ -10,7 +10,7 @@ Execution produces irreversible records.
 
 Records accumulate as history.
 
-Structure and derivations emerges from recorded history.
+Structure and derivations emerge from recorded history.
 
 ---
 
@@ -26,8 +26,6 @@ ENDO
 ENDO NODE  
 ↓  
 ORIGIN  
-↓  
-EMISSIONS 
 ↓  
 CELL  
 ↓  
@@ -130,41 +128,26 @@ NODE executes.
 
 ### ORIGIN
 
-Type: Emitter
+Type: Emission point
 
-Structural emission point capable of producing acts within a regime.
+Emission point within a regime.
 
 - identified by origin_id  
 - defines a distinct emission source  
 
-Origin emits.
-
 ---
 
-### EMISSIONS
+### CELL
 
-Type: Execution units
+Type: Record
 
-Irreversible outputs emitted by origins during runtime.
-
-- sequenced in generations  
-- emitted without interpretation  
-
-Emissions occur.
-
----
-
-### CELLS
-
-Type: Records
-
-Irreversible records of structural events.
+Irreversible record of structural events.
 
 - append-only  
 - hash chained  
 - generation-bound  
 
-Cells preserve history.  
+Cell preserve history.  
 
 ---
 

@@ -1,0 +1,26 @@
+{
+  "execution_trace_id": "et-gen_0003",
+  "generation": "gen_0003",
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "closure": {
+    "closed": true,
+    "closed_at": "2026-03-31T17:07:45.025191Z",
+    "final_total": 13,
+    "threshold": 50,
+    "time_limit_seconds": 604800,
+    "closed_reason": "TIME"
+  },
+  "resolution": null,
+  "evidence": {
+    "closure_ref": "node00-gamc/runtime/generations/gen_0003/cycle_closed.json",
+    "index_ref": "node00-gamc/runtime/generations/gen_0003/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0003/gen_meta.json"
+  },
+  "integrity": {
+    "record_hash": "71a7adcfcaea3d6de53282e0b1fe76b39db4c79067e973e83470c7a2aa53e8f1",
+    "hash_algorithm": "SHA-256"
+  }
+}

@@ -1,7 +1,8 @@
 {
   "generation": "gen_0002",
   "node": {
-    "node_id": "node00-gamc"
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
   },
   "source": {
     "type": "runtime"
@@ -27,7 +28,7 @@
     "regime_behavior": "unknown"
   },
   "integrity": {
-    "trajectory_hash": "725899353512b5ff812227434db33e2ef1fa1f0445ded34d99a712dac55b757e",
+    "trajectory_hash": "d40c44faa2b8a195768bff95f211200c373ca8e4af84bc002e07206d4b4c9f42",
     "hash_algorithm": "SHA-256"
   }
 }

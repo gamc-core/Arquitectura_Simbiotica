@@ -5,12 +5,12 @@
     "node_path": "node00-gamc"
   },
   "status": {
-    "closed": false
+    "closed": true
   },
   "index": {
-    "total_cells": 8,
-    "origins_active_count": 4,
-    "last_chain_hash": "42d865de5fc48cdc2607297c469ce24c985fa0aac145ce79ba3000586fbe6002"
+    "total_cells": 13,
+    "origins_active_count": 6,
+    "last_chain_hash": "c1f6122d1c985bc00da3e0a753b98df6d8838ec9658a3031bf5e224baa293820"
   },
   "evidence": {
     "index_ref": "node00-gamc/runtime/generations/gen_0003/index.json",

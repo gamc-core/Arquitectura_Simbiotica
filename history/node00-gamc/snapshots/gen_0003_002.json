@@ -1,0 +1,187 @@
+{
+  "generation": "gen_0003",
+  "snapshot_id": "gen_0003_002",
+  "captured_at": "2026-04-01T20:36:24.414584Z",
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0003",
+    "created_at": "2026-03-24T02:03:14.541158Z",
+    "time_limit_seconds": 604800,
+    "threshold": 50,
+    "max_cells_per_origin": 3,
+    "closed": true,
+    "config_snapshot": {
+      "threshold": 50,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 3,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3
+    },
+    "config_hash": "411a64aff657ce380132e77d821a67f77392c994011ff368093b9e0b60fbaffd",
+    "closed_at": "2026-03-31T17:07:45.025191Z",
+    "closed_reason": "TIME"
+  },
+  "index": {
+    "total_cells": 13,
+    "origins_active_count": 6,
+    "last_cell_at": "2026-03-30T22:59:58.465945Z",
+    "cells_by_origin": {
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 3,
+      "7f60bd07-b030-4887-8a3b-0a7407d24f90": 3,
+      "df6bb589-7555-428a-a277-bc10cd830dcf": 1,
+      "a8e49d48-73c9-4268-8e04-a072b1fc4203": 1,
+      "8da24631-9746-418c-aa49-ad0112313bce": 2,
+      "749149a1-846b-4027-9872-f0e57485d400": 3
+    },
+    "seq_global": 13,
+    "last_chain_hash": "c1f6122d1c985bc00da3e0a753b98df6d8838ec9658a3031bf5e224baa293820"
+  },
+  "cells": [
+    {
+      "cell_id": "2b9dcb9d-9abd-40f1-bb2e-db4c055366b4",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "stone",
+      "seq_global": 1,
+      "payload": "gen_003 initiated. No regime condition changes applied",
+      "references": [],
+      "hash": "f458d3510dd7bdff7ebd8326cacdc0812d052dc83ee7736e7954b055351c540b",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "d57e0a42-89bf-418d-ae11-48639d8d28bc",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "stone",
+      "seq_global": 2,
+      "payload": "core isolated → history structured → traces formalized",
+      "references": [],
+      "hash": "e36ff8af15927c9754752e056a2cd3f9647c69c9605feba91222f910b9dc4bde",
+      "prev_hash": "f458d3510dd7bdff7ebd8326cacdc0812d052dc83ee7736e7954b055351c540b"
+    },
+    {
+      "cell_id": "e4cf3792-c8b6-42b1-8908-e23342fd3424",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "stone",
+      "seq_global": 3,
+      "payload": "external interaction activated → external interaction closed",
+      "references": [],
+      "hash": "b8eac88965541cd4a267c0b622ae264d2cf4073e00e65b4fef245ee030e37a5e",
+      "prev_hash": "e36ff8af15927c9754752e056a2cd3f9647c69c9605feba91222f910b9dc4bde"
+    },
+    {
+      "cell_id": "1a83e20a-b7c7-433a-bb39-25c3454b6657",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "wave",
+      "seq_global": 4,
+      "payload": "recording scope expanded beyond predefined structural acts",
+      "references": [],
+      "hash": "bb5a0fcfdde41acf99a456ed540c8817c0bfe2dabc925f9e484ccc00611c8d7a",
+      "prev_hash": "b8eac88965541cd4a267c0b622ae264d2cf4073e00e65b4fef245ee030e37a5e"
+    },
+    {
+      "cell_id": "efa940a7-1893-45de-8160-30a2ab620b0a",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "wave",
+      "seq_global": 5,
+      "payload": "operator accepted external work",
+      "references": [],
+      "hash": "860e59e50a1c2c7e1545d4a07724b658b7937a855358d5673d57a64774b5c6d1",
+      "prev_hash": "bb5a0fcfdde41acf99a456ed540c8817c0bfe2dabc925f9e484ccc00611c8d7a"
+    },
+    {
+      "cell_id": "f0316019-6ea3-4c40-9b11-add814240883",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "wave",
+      "seq_global": 6,
+      "payload": "physical execution: executor misselection for scope → capability mismatch → deviation detected → feedback issued",
+      "references": [],
+      "hash": "106c85785e85e9708bd592c0c283c6dd182c1e2f1563c3d0de15633e37015a0d",
+      "prev_hash": "860e59e50a1c2c7e1545d4a07724b658b7937a855358d5673d57a64774b5c6d1"
+    },
+    {
+      "cell_id": "4c38b693-49c5-43ef-bf1f-e68ced3a2d01",
+      "origin_id": "df6bb589-7555-428a-a277-bc10cd830dcf",
+      "origin_alias": "south",
+      "seq_global": 7,
+      "payload": "external project instantiated → NODE_PIURA_01 initialized → reference: #5",
+      "references": [
+        5
+      ],
+      "hash": "df2fa8f175ff3cb56beb5b9f9c4fd2f2a5312fc0bbe4b8e9d7e03240055b3dbe",
+      "prev_hash": "106c85785e85e9708bd592c0c283c6dd182c1e2f1563c3d0de15633e37015a0d"
+    },
+    {
+      "cell_id": "3863e63e-be48-424a-9849-1f1e6adfee9a",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "mesh",
+      "seq_global": 8,
+      "payload": "reference layer extended → inter-node + inter-generation enabled for new instances → core node execution remains legacy-compatible",
+      "references": [],
+      "hash": "1869faa0a3873f7c890d5211f1762c15eb93f109184266e3e0f1e2c638dfe8aa",
+      "prev_hash": "df2fa8f175ff3cb56beb5b9f9c4fd2f2a5312fc0bbe4b8e9d7e03240055b3dbe"
+    },
+    {
+      "cell_id": "749f2b97-3629-4a20-a8cd-2c6faa800146",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "spark",
+      "seq_global": 9,
+      "payload": "export automation activated → latest, snapshots and execution traces emitted without manual triggering → structural recording continuity enforced → #2",
+      "references": [
+        2
+      ],
+      "hash": "21a6d89c4e8eafc175a1c6d5cecbc1e53e44a79a38b11fa05383c2e2086ded06",
+      "prev_hash": "1869faa0a3873f7c890d5211f1762c15eb93f109184266e3e0f1e2c638dfe8aa"
+    },
+    {
+      "cell_id": "e1d5ce4e-b6e6-41d5-b0fa-d1148f074b8d",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "spark",
+      "seq_global": 10,
+      "payload": "snapshot threshold reached → export triggered → recording state observed → #9",
+      "references": [
+        9
+      ],
+      "hash": "b6802bb162dd089a623dd23c6b69aa7b47e5b9cc3f365cb015998d8020a4f080",
+      "prev_hash": "21a6d89c4e8eafc175a1c6d5cecbc1e53e44a79a38b11fa05383c2e2086ded06"
+    },
+    {
+      "cell_id": "d2d35840-c4e5-49d2-9ad2-95bffb8b74c8",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "current",
+      "seq_global": 11,
+      "payload": "structural map updated → structural acts replaced with emissions → emission defined as neutral execution unit → #4",
+      "references": [
+        4
+      ],
+      "hash": "29fdc3974b71e9190de58f425e0c0c571a7f8e1faf63c46ab7611b59452441a3",
+      "prev_hash": "b6802bb162dd089a623dd23c6b69aa7b47e5b9cc3f365cb015998d8020a4f080"
+    },
+    {
+      "cell_id": "b72f38d9-2a8d-4eb7-836c-47a97c46a186",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "current",
+      "seq_global": 12,
+      "payload": "hash inconsistency detected in late emission segment → payload unchanged → chain recomputed → continuity preserved",
+      "references": [],
+      "hash": "c0da20326f2db642813f7baa76feb0992cb51b7e0851e06c469fc535fdc6c331",
+      "prev_hash": "29fdc3974b71e9190de58f425e0c0c571a7f8e1faf63c46ab7611b59452441a3"
+    },
+    {
+      "cell_id": "c6456564-54f0-41d4-bd13-4952e8b1c786",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "current",
+      "seq_global": 13,
+      "payload": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_003\",\"closure_reason\":\"MANUAL\",\"integrity\":{\"targets\":[],\"note\":\"late emission segment\"}}",
+      "references": [],
+      "hash": "981ab9c2ebf4ee213b396c8c0e05c39e4110d5d5b00317e9d170f40a6d9cc2ee",
+      "prev_hash": "c0da20326f2db642813f7baa76feb0992cb51b7e0851e06c469fc535fdc6c331"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "a3d577afe59314dfd7f351f535d2525e034fc814c758b6b1791f3c68d651895f",
+    "hash_algorithm": "SHA-256"
+  }
+}
