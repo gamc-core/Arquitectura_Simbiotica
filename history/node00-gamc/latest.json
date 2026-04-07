@@ -1,19 +1,23 @@
 {
-  "generation": "gen_0003",
+  "generation": "gen_0004",
   "node": {
     "node_id": "node00-gamc",
     "node_path": "node00-gamc"
   },
   "status": {
-    "closed": true
+    "closed": false
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
   },
   "index": {
-    "total_cells": 13,
-    "origins_active_count": 6,
-    "last_chain_hash": "c1f6122d1c985bc00da3e0a753b98df6d8838ec9658a3031bf5e224baa293820"
+    "total_cells": 14,
+    "origins_active_count": 7,
+    "last_chain_hash": "7327358b47e5ccccee3928a191da05831859f24bdf2b7710a35d007107a6037e"
   },
   "evidence": {
-    "index_ref": "node00-gamc/runtime/generations/gen_0003/index.json",
-    "meta_ref": "node00-gamc/runtime/generations/gen_0003/gen_meta.json"
+    "index_ref": "node00-gamc/runtime/generations/gen_0004/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0004/gen_meta.json"
   }
 }
