@@ -2,7 +2,7 @@
 
 An exposed system in execution.
 
-This repository contains the recorded history of a node operating under ENDO / NODE.
+This repository contains recorded execution history under the structural conditions of Arquitectura Simbiótica (ENDO / NODE).
 
 ENDO → structural protocol  
 NODE → runtime execution  
@@ -59,7 +59,7 @@ You are observing:
 
 ## OPTIONAL CONTEXT
 
-- [SYSTEM_STRUCTURE](SYSTEM_STRUCTURE.md)  
+- [SYSTEM_STRUCTURE](context/SYSTEM_STRUCTURE.md)  
 → structural definition (not required to read execution)
 
 - [artifacts](derived/artifacts)  
