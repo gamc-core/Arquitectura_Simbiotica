@@ -33,7 +33,7 @@ Other nodes are not publicly exposed.
 → closed generations  
 
 - [snapshots](history/node00-gamc/snapshots/)  
-→ recorded cells (closed states) across generations  
+→ recorded cells across generations  
 
 - [trajectory](history/node00-gamc/trajectory/)  
 → structural evolution  
