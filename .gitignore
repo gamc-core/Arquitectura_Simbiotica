@@ -2,11 +2,12 @@
 bin
 export
 core
-.gitignore
 nodes
 history/node_piura_01
 prot_nuevos_node.md
 history/node00-gamc/structural_trajectory
-history/node00-gamc/graph
-history/node00-gamc/state
-history/node00-gamc/trajectory/gen_0001.json
+history/node00-gamc/trajectory_lines
+history/node00-gamc/semantic_lines
+emission_protocol.md
+Observation_reading
+history/node00-gamc/global_core_view

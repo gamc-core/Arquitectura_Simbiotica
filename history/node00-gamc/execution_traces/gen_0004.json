@@ -1,0 +1,51 @@
+{
+  "execution_trace_id": "et-gen_0004",
+  "generation": "gen_0004",
+  "anchors": {
+    "cycle_closed_hash": "136a38f585d97d2637f67d8b8080eba76865e9d1510625912e47a85c028098ba",
+    "index_hash": "b89378b9305eb1191707f0769e79c1b040926fd56230b9c91ce9ef7e4019bce5",
+    "meta_hash": "7e40c802ecb19c34e875b805f567163ade62d12b870ccab283fdc79741f62a0f",
+    "last_chain_hash": "24e4052578da9fcbf972409e3f3c335d985948b3278458c8c4d8822e11340310"
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "closure": {
+    "closed": true,
+    "closed_at": "2026-04-14T01:52:02.559821Z",
+    "final_total": 17,
+    "threshold": 30,
+    "time_limit_seconds": 604800,
+    "closed_reason": "TIME",
+    "resolution": {
+      "seq_global": 17,
+      "cell_id": "a39ad856-ffaa-465c-a3a7-a1a9d361fb1a",
+      "hash": "24e4052578da9fcbf972409e3f3c335d985948b3278458c8c4d8822e11340310"
+    },
+    "integrity": {
+      "record_hash": "44f8f4f2ca43d00e7807de37901fe8c2186f89e62a6daf4303f3e09d9207397b",
+      "hash_algorithm": "SHA-256"
+    }
+  },
+  "resolution": {
+    "seq_global": 17,
+    "cell_id": "a39ad856-ffaa-465c-a3a7-a1a9d361fb1a",
+    "hash": "24e4052578da9fcbf972409e3f3c335d985948b3278458c8c4d8822e11340310",
+    "payload_raw": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0004\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"COMPUTED\",\"corrupted_count\":0,\"chain_break_count\":0,\"targets\":[]}}",
+    "anchor": "#17"
+  },
+  "evidence": {
+    "closure_ref": "node00-gamc/runtime/generations/gen_0004/cycle_closed.json",
+    "index_ref": "node00-gamc/runtime/generations/gen_0004/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0004/gen_meta.json"
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "record_hash": "913a45996888eb11d76d60f4c42296b029ddf0ece01cfaa43babac7db0e959bb"
+  }
+}

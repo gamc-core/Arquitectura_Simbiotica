@@ -1,76 +1,74 @@
 # Arquitectura Simbiótica
 
-- Status: Active structural architecture  
-- Date: 2026-03-22  
-- Author: Gonzalo Montero Cavero  
-- Maintained under: gamc-core  
+An exposed system in execution.
+
+This repository contains the recorded history of a node operating under ENDO / NODE.
+
+ENDO → structural protocol  
+NODE → runtime execution  
 
 ---
 
-Arquitectura Simbiótica is a structural architecture in execution.
+## ACTIVE NODES
 
-It defines how systems execute, record, emerge and evolve from within through irreversible acts.
+node00-gamc
 
----
+Origin node currently exposed.
 
-## How to navigate
+Captures structural execution as irreversible records across bounded regimes, producing append-only history and generational closure.
 
-The system is organized into exposed layers:
-
-- [structural_map.json](structural_map)  
-  → System structure overview  
-
-- [history/node00-gamc/latest.json](history/node00-gamc/latest.json)  
-  → Current live state (origin node)
-
-- [history/node00-gamc/execution_traces/](history/node00-gamc/execution_traces/)  
-  → Closed generations  
-
-- [history/node00-gamc/snapshots/](history/node00-gamc/snapshots/)  
-  → Temporal states (cells + structure)  
-
-- [history/node00-gamc/trajectory/](history/node00-gamc/trajectory/)  
-  → Structural evolution
-
-- [artifacts/](artifacts/)  
-  → External outputs  
+Other nodes are not publicly exposed.
 
 ---
 
-### Navigation logic
+## START
 
-- Structural map → system structure  
-- Latest → current state  
-- Execution trace → generation closure  
-- Snapshot → state at a moment  
-- Trajectory → system evolution  
-- Artifacts → system outputs  
+- [NODE_READING](history/NODE_READING.md)  
+→ minimal protocol for reading node history  
 
-The runtime layer is not exposed.  
-All layers are derived from it. 
+- [latest](history/node00-gamc/latest.json)  
+→ current system state  
 
----
+- [execution traces](history/node00-gamc/execution_traces/)  
+→ closed generations  
 
-## What you can do
+- [snapshots](history/node00-gamc/snapshots/)  
+→ recorded cells (closed states) across generations  
 
-- Inspect a live append-only system  
-- Verify integrity through hashes  
-- Analyze evolution across generations  
-- Reconstruct state from snapshots  
-- Validate closures via execution traces  
+- [trajectory](history/node00-gamc/trajectory/)  
+→ structural evolution  
+
 
 ---
 
-## Scope
+## WHAT YOU ARE SEEING
 
-Origin node: node00-gamc
+This is not code.
 
-Only the origin node is publicly exposed.
+This is a recorded execution.
 
-Other nodes are not part of this repository.
+You are observing:
+
+- how a system executes  
+- what it records  
+- how it closes  
+- how it persists  
+
 
 ---
 
-## Integrity
+## OPTIONAL CONTEXT
 
-Public records include hash-based integrity fields and can be independently verified.
+- [SYSTEM_STRUCTURE](SYSTEM_STRUCTURE.md)  
+→ structural definition (not required to read execution)
+
+- [artifacts](derived/artifacts)  
+→ outputs derived from execution  
+
+---
+
+## NOTE
+
+The runtime and protocol are not exposed.
+
+Only recorded execution is visible.

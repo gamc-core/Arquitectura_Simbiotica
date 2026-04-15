@@ -1,34 +1,83 @@
 {
-  "generation": "gen_0003",
-  "node": {
-    "node_id": "node00-gamc",
-    "node_path": "node00-gamc"
-  },
-  "source": {
-    "type": "runtime"
-  },
-  "intra": {
-    "emission_density": 0.26,
-    "origin_distribution": "uniform",
-    "reference_usage": 0.3077
-  },
-  "inter": {
-    "generation_delta": "contracting",
-    "origin_shift": "low",
-    "structural_shift": "partial"
-  },
-  "global": {
-    "total_generations": 3,
-    "total_cells": 62,
-    "total_origins": 32
-  },
-  "structure": {
-    "origin_persistence": 0.0,
-    "origin_turnover": 1.0,
-    "regime_behavior": "oscillating"
-  },
-  "integrity": {
-    "trajectory_hash": "af19fda2d7fdac24448245e957b9428fec4a8059b87798208aec10857499825c",
-    "hash_algorithm": "SHA-256"
-  }
+    "generation": "gen_0003",
+    "node": {
+        "node_id": "node00-gamc",
+        "node_path": "node00-gamc"
+    },
+    "READING_ORDER": [
+        "INTRA",
+        "INTER",
+        "STRUCTURE",
+        "LINEAGE",
+        "GLOBAL"
+    ],
+    "intra": {
+        "_": "---------------- INTRA ----------------",
+        "CORE": {
+            "emission_density": 0.26,
+            "origin_distribution": "uniform",
+            "reference_usage": 0.3077,
+            "chain_linearity": 1.0,
+            "origin_pressure": 0.2308
+        },
+        "SECONDARY": {
+            "reference": {
+                "reference_local_density": 0.3077,
+                "reference_structural_density": 0.0,
+                "reference_connectivity": 0.3077
+            },
+            "chain_break_risk": 0.0
+        },
+        "OPTIONAL": {
+            "reentry": {
+                "reentry_count": 0,
+                "reentry_presence": false
+            }
+        }
+    },
+    "inter": {
+        "_": "---------------- INTER ----------------",
+        "CORE": {
+            "generation_delta": "contracting"
+        },
+        "SECONDARY": {
+            "origin_shift": "low",
+            "structural_shift": "partial"
+        }
+    },
+    "structure": {
+        "_": "---------------- STRUCTURE ----------------",
+        "CORE": {
+            "regime_behavior": "oscillating"
+        },
+        "SECONDARY": {
+            "origin_persistence": 0.0,
+            "origin_turnover": 1.0,
+            "origin_persistence_historical": 0.1667
+        }
+    },
+    "lineage": {
+        "_": "---------------- LINEAGE ----------------",
+        "CORE": {
+            "lineage_avg_length": 1.3846,
+            "lineage_avg_depth": 1.0
+        },
+        "SECONDARY": {
+            "lineage_max_length": 3,
+            "lineage_max_depth": 1,
+            "lineage_reactivation_ratio": 0.0
+        }
+    },
+    "global": {
+        "_": "---------------- GLOBAL STATE ----------------",
+        "OPTIONAL": {
+            "total_generations": 3,
+            "total_cells": 62,
+            "total_origins": 32
+        }
+    },
+    "integrity": {
+        "trajectory_hash": "4daae1eb49fc17ea4657eca06fa7cc1a23151f05c7486f391d1d368b95b3ead1",
+        "hash_algorithm": "SHA-256"
+    }
 }

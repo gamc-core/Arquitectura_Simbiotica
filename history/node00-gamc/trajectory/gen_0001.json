@@ -1,5 +1,5 @@
 {
-    "generation": "gen_0002",
+    "generation": "gen_0001",
     "node": {
         "node_id": "node00-gamc",
         "node_path": "node00-gamc"
@@ -14,17 +14,17 @@
     "intra": {
         "_": "---------------- INTRA ----------------",
         "CORE": {
-            "emission_density": 0.3,
+            "emission_density": 0.68,
             "origin_distribution": "uniform",
-            "reference_usage": 0.1333,
+            "reference_usage": 0.1176,
             "chain_linearity": 1.0,
-            "origin_pressure": 0.2
+            "origin_pressure": 0.0882
         },
         "SECONDARY": {
             "reference": {
-                "reference_local_density": 0.2,
+                "reference_local_density": 0.1176,
                 "reference_structural_density": 0.0,
-                "reference_connectivity": 0.1333
+                "reference_connectivity": 0.1176
             },
             "chain_break_risk": 0.0
         },
@@ -38,32 +38,32 @@
     "inter": {
         "_": "---------------- INTER ----------------",
         "CORE": {
-            "generation_delta": "contracting"
+            "generation_delta": "unknown"
         },
         "SECONDARY": {
-            "origin_shift": "high",
-            "structural_shift": "significant"
+            "origin_shift": "unknown",
+            "structural_shift": "unknown"
         }
     },
     "structure": {
         "_": "---------------- STRUCTURE ----------------",
         "CORE": {
-            "regime_behavior": "oscillating"
+            "regime_behavior": "unknown"
         },
         "SECONDARY": {
-            "origin_persistence": 0.0,
-            "origin_turnover": 1.0,
-            "origin_persistence_historical": 0.0
+            "origin_persistence": null,
+            "origin_turnover": null,
+            "origin_persistence_historical": null
         }
     },
     "lineage": {
         "_": "---------------- LINEAGE ----------------",
         "CORE": {
-            "lineage_avg_length": 1.2,
+            "lineage_avg_length": 1.1176,
             "lineage_avg_depth": 1.0
         },
         "SECONDARY": {
-            "lineage_max_length": 3,
+            "lineage_max_length": 2,
             "lineage_max_depth": 1,
             "lineage_reactivation_ratio": 0.0
         }
@@ -71,13 +71,13 @@
     "global": {
         "_": "---------------- GLOBAL STATE ----------------",
         "OPTIONAL": {
-            "total_generations": 2,
-            "total_cells": 49,
-            "total_origins": 27
+            "total_generations": 1,
+            "total_cells": 34,
+            "total_origins": 21
         }
     },
     "integrity": {
-        "trajectory_hash": "6c8623130cc791d09362018f35bf90d76095b42c63f7f2254b7e00c64773be25",
+        "trajectory_hash": "f440fca7188218b0efa7b1a7f301e66410edaef5c0e0b0081bb3b1b16477d927",
         "hash_algorithm": "SHA-256"
     }
 }

@@ -1,0 +1,353 @@
+{
+  "generation": "gen_0004",
+  "snapshot_id": "gen_0004_002",
+  "captured_at": "2026-04-14T01:52:27.509679Z",
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0004",
+    "created_at": "2026-04-06T22:57:54.634844Z",
+    "time_limit_seconds": 604800,
+    "threshold": 30,
+    "max_cells_per_origin": 6,
+    "closed": true,
+    "config_snapshot": {
+      "threshold": 30,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 6,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3,
+      "runtime_version": "ENDO_NODE_V0.3",
+      "hash_mode": "v3"
+    },
+    "config_hash": "a5d9cb1ba94098e660895dbfc1d64985e9e4b85187bbfaf052406f2222b7c05c",
+    "closed_at": "2026-04-14T01:52:02.559821Z",
+    "closed_reason": "TIME"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "index": {
+    "total_cells": 17,
+    "origins_active_count": 7,
+    "last_cell_at": "2026-04-14T01:52:02.549812Z",
+    "cells_by_origin": {
+      "0130cae3-1be4-41ed-bc8e-3ec373674eae": 2,
+      "749149a1-846b-4027-9872-f0e57485d400": 6,
+      "c9565576-7084-49a0-a9fa-b3422fe8c148": 3,
+      "8da24631-9746-418c-aa49-ad0112313bce": 2,
+      "a8e49d48-73c9-4268-8e04-a072b1fc4203": 1,
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 2,
+      "df6bb589-7555-428a-a277-bc10cd830dcf": 1
+    },
+    "seq_global": 17,
+    "last_chain_hash": "24e4052578da9fcbf972409e3f3c335d985948b3278458c8c4d8822e11340310"
+  },
+  "cells": [
+    {
+      "cell_id": "965a3240-974f-4829-9b5e-76568fbe1a90",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 1,
+      "payload": "{\"type\":\"REENTRY\",\"from_generation\":\"gen_0003\",\"to_generation\":\"gen_0004\",\"mode\":\"NO_STATE_CARRY\",\"continuity\":\"TRAJECTORY_PRESERVED\",\"reentry_anchor\":\"#13\"}",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          }
+        ]
+      },
+      "hash": "32aa86220c89984c8abc2b58423cc2eac521b8598ff94b427bb771072763a20b",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "69d06fd6-b2fd-4cb6-b9d4-2c4b026c9849",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 2,
+      "payload": "origin identity reduced → alias removed → origin_id as sole emission anchor",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "514418f42a604016bbfb5d358db020a05a53f2c045f3b955fa219dc7cc805b11",
+      "prev_hash": "32aa86220c89984c8abc2b58423cc2eac521b8598ff94b427bb771072763a20b"
+    },
+    {
+      "cell_id": "cff538e6-6f05-4822-ad77-7ae9e6b49bed",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 3,
+      "payload": "origin redefined as emission point → no actor → no interpretation layer",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "6fb76c448aa9697e525cf70a7e2e1c0461e0df9b5989e6d17b59c4e7370c78af",
+      "prev_hash": "514418f42a604016bbfb5d358db020a05a53f2c045f3b955fa219dc7cc805b11"
+    },
+    {
+      "cell_id": "0bc6520a-ef56-46a8-b918-e7dcf9f52d29",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 4,
+      "payload": "cell becomes sole source of truth → origin stabilized → runtime over snapshot",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "a7e6de70adb90312b1fde1159f47ff246df9d3275dc3d4286fe411121cfecccd",
+      "prev_hash": "6fb76c448aa9697e525cf70a7e2e1c0461e0df9b5989e6d17b59c4e7370c78af"
+    },
+    {
+      "cell_id": "c80c9ba9-2544-458d-a252-9fa8357cb925",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 5,
+      "payload": "runtime history declared as source of truth independent of code state",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "292f5b3a8045a69a150087cd5a3b37a0902b47a3f84dff706d6944283dddaf38",
+      "prev_hash": "a7e6de70adb90312b1fde1159f47ff246df9d3275dc3d4286fe411121cfecccd"
+    },
+    {
+      "cell_id": "9e419a2b-e9b6-4c57-8ce1-f841a7839122",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 6,
+      "payload": "storage and export layers decoupled from runtime implementation",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "04186e041f91781752e7a50f78d6fbaf241ec90a86d9ff330d8f68cbcdb0661e",
+      "prev_hash": "292f5b3a8045a69a150087cd5a3b37a0902b47a3f84dff706d6944283dddaf38"
+    },
+    {
+      "cell_id": "df046b16-445f-49c9-9d28-c9984748d0ac",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 7,
+      "payload": "reentry-resolution linkage incorporated → #1",
+      "references": {
+        "local": [
+          1
+        ],
+        "structural": []
+      },
+      "hash": "4489c009543164c4266069d7fdf0348c6bfe9e884de34832e3780274b7329f1a",
+      "prev_hash": "04186e041f91781752e7a50f78d6fbaf241ec90a86d9ff330d8f68cbcdb0661e"
+    },
+    {
+      "cell_id": "8c6170bf-e9fd-4fa8-822c-72bd222a95d2",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 8,
+      "payload": "execution stabilization anchored → #1, #7",
+      "references": {
+        "local": [
+          1,
+          7
+        ],
+        "structural": []
+      },
+      "hash": "dec04f03fbfd56e89cc921875fefb739076d8f784b285ae5ade1ef39f1db353e",
+      "prev_hash": "4489c009543164c4266069d7fdf0348c6bfe9e884de34832e3780274b7329f1a"
+    },
+    {
+      "cell_id": "96f7ca93-dda5-456f-b38b-20fec45504ea",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 9,
+      "payload": "automated exposure layers activated → execution traces + snapshots + trajectory derived → @gen_0003#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "c637d1da9ca99637440acb173775cc0cf064cfb475c716766888cb9c7768593c",
+      "prev_hash": "dec04f03fbfd56e89cc921875fefb739076d8f784b285ae5ade1ef39f1db353e"
+    },
+    {
+      "cell_id": "d6620fe0-c17a-409e-9bd3-b3ccd7ddca80",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 10,
+      "payload": "snapshot / trace / latest layers unified as derived outputs → @gen_0003#10",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 10
+              }
+            }
+          }
+        ]
+      },
+      "hash": "b0d1acc40427fdab2441d7b0ceec42acd98914710089ba59c8be62e3ca1f1a46",
+      "prev_hash": "c637d1da9ca99637440acb173775cc0cf064cfb475c716766888cb9c7768593c"
+    },
+    {
+      "cell_id": "0fa4cb91-1992-4273-bcb6-201b3329cd67",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 11,
+      "payload": "internal derived layers defined → structural trajectory + graph + states → @gen_0003#8",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 8
+              }
+            }
+          }
+        ]
+      },
+      "hash": "52e0d163cbcd646f2f19fb8f1078101d787a58acd087403c49b163c012d36bca",
+      "prev_hash": "b0d1acc40427fdab2441d7b0ceec42acd98914710089ba59c8be62e3ca1f1a46"
+    },
+    {
+      "cell_id": "b841cbe0-dd7c-4526-85a7-697e6dfa5c09",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 12,
+      "payload": "ENDO_NODE v0.3 internal declared as standard runtime",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "8a1adb3b22b9ea7f231338742167e740cfa571331507dcee00e0cdc4284c3798",
+      "prev_hash": "52e0d163cbcd646f2f19fb8f1078101d787a58acd087403c49b163c012d36bca"
+    },
+    {
+      "cell_id": "3d340cdb-a746-457a-ab70-14ac47167c43",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 13,
+      "payload": "system-wide upgrade path defined → core node → gamc node → external nodes",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "c660daa646e8d1da9c493d6e51f1bca6d84f2f2a42642f491136bdc3a20a21e8",
+      "prev_hash": "8a1adb3b22b9ea7f231338742167e740cfa571331507dcee00e0cdc4284c3798"
+    },
+    {
+      "cell_id": "5e0c4960-f6cf-43c7-835e-2fed9a623c72",
+      "origin_id": "df6bb589-7555-428a-a277-bc10cd830dcf",
+      "origin_alias": "odf6bb5",
+      "seq_global": 14,
+      "payload": "inter-node linkage formalized → NODE_PIURA_01 anchored → bifurcation source preserved → @node_piura_01/gen_0001#1 → @gen_0003#7",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_node",
+            "target": {
+              "node_id": "node_piura_01",
+              "generation": "gen_0001",
+              "cell": {
+                "seq_global": 1
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 7
+              }
+            }
+          }
+        ]
+      },
+      "hash": "7327358b47e5ccccee3928a191da05831859f24bdf2b7710a35d007107a6037e",
+      "prev_hash": "c660daa646e8d1da9c493d6e51f1bca6d84f2f2a42642f491136bdc3a20a21e8"
+    },
+    {
+      "cell_id": "7a8341ff-be62-4802-8174-6812985afc84",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 15,
+      "payload": "system origin unified → single origin enforced for reentry + resolution → #1, #7, #8",
+      "references": {
+        "local": [
+          1,
+          7,
+          8
+        ],
+        "structural": []
+      },
+      "hash": "c217eae8a642d4debec84758b3d391f958c3ee4aa105f6c94f62aca7fa83a9e4",
+      "prev_hash": "7327358b47e5ccccee3928a191da05831859f24bdf2b7710a35d007107a6037e"
+    },
+    {
+      "cell_id": "3b18fa4b-2dd1-4391-b5a1-5ae01fd6eabf",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 16,
+      "payload": "layer separation declared → origin_id canonical → alias exposure layer only → #2",
+      "references": {
+        "local": [
+          2
+        ],
+        "structural": []
+      },
+      "hash": "3db9135aa10a3276c35302984ebacd49e7352a26891894cb67968ac81a827a31",
+      "prev_hash": "c217eae8a642d4debec84758b3d391f958c3ee4aa105f6c94f62aca7fa83a9e4"
+    },
+    {
+      "cell_id": "a39ad856-ffaa-465c-a3a7-a1a9d361fb1a",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 17,
+      "payload": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0004\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"COMPUTED\",\"corrupted_count\":0,\"chain_break_count\":0,\"targets\":[]}}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "24e4052578da9fcbf972409e3f3c335d985948b3278458c8c4d8822e11340310",
+      "prev_hash": "3db9135aa10a3276c35302984ebacd49e7352a26891894cb67968ac81a827a31"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "1bb1b537939a74b0ed9e2c7c113df6f5091466ef9e749c1ada069a1f6ce8081f",
+    "hash_algorithm": "SHA-256"
+  }
+}
