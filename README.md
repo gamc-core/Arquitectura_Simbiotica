@@ -23,7 +23,7 @@ Other nodes are not publicly exposed.
 
 ## START
 
-- [NODE_READING](history/NODE_READING.md)  
+- [NODE_READING](history/node_reading.md)  
 → minimal protocol for reading node history  
 
 - [latest](history/node00-gamc/latest.json)  

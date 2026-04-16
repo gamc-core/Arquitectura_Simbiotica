@@ -16,20 +16,19 @@ Only structural reading.
 
 1. Did it close?
 
-→ [execution_traces](history/node00-gamc/execution_traces)  
-
+→ [execution_traces](node00-gamc/execution_traces/)  
 
 2. What exists?  
 
-→ [snapshots](history/node00-gamc/snapshots/)  
+→ [snapshots](node00-gamc/snapshots/)  
 
 3. How does it behave?  
 
-→ [trajectory](history/node00-gamc/trajectory/)  
+→ [trajectory](node00-gamc/trajectory/)  
 
 4. What is the current state? 
 
-→ [latest](history/node00-gamc/latest.json)  
+→ [latest](node00-gamc/latest.json)  
 
 ---
 
