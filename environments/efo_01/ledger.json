@@ -1,8 +1,5 @@
 {
-  "status": "CLOSED",
-  "start_date": "2026-03-02",
-  "days_elapsed": 2,
-  "artifacts_frozen": 3,
-  "closed": true,
-  "close_trigger": "ARTIFACT_LIMIT"
+  "capital_initial": 150,
+  "capital_remaining": 150,
+  "transactions": []
 }
