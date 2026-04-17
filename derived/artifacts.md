@@ -28,6 +28,10 @@ Conditions observed and formalized from execution.
 
 ## CE — Structural Executions
 
+Origin(bounded regime):
+
+- [EFO-01](/environments/efo_01)
+
 Executable structures derived from system execution.  
 Reproducible under defined conditions.
 

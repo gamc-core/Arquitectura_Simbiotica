@@ -63,7 +63,10 @@ You are observing:
 → structural definition (not required to read execution)
 
 - [artifacts](derived/artifacts)  
-→ outputs derived from execution  
+→ outputs derived from execution
+
+- [efo 01](environments/efo_01)  
+→ bounded production environment (pre-ENDO) where CE01–CE03 artifacts were produced without irreversible recording
 
 ---
 
