@@ -1,188 +1,141 @@
-# SYSTEM STRUCTURE
+# ═══════════════════════════════════════════════════════════════
+# Arquitectura Simbiótica — STRUCTURAL SYSTEM
+# ═══════════════════════════════════════════════════════════════
 
-## Premise
 
-Arquitectura Simbiótica defines the conditions under which execution produces irreversible records.
+## OVERVIEW
 
-Structure emerges from recorded history.
+Arquitectura Simbiótica defines the conditions under which execution produces irreversible structural records.
 
----
+It is not a framework.  
+It is not a workflow.  
 
-## Structure
+Execution is recorded as structure.  
+Structure accumulates as history.  
+History reveals trajectory.  
 
-- ENDO → structural protocol (not exposed)  
-- NODE → runtime execution  
-- HISTORY → recorded system  
-- ARTIFACTS → derived outputs
 
----
 
-## Flows
+## SYSTEM STACK
 
-### Execution:
+### REALITY 
+
+→ decisions / actions  
+
+### ENDO 
+
+→ irreversible recording (cells, generations)  
+
+### REGIME 
+
+→ bounded execution  
+
+### EFO  
+
+→ finite operational environment  
+
+### OBSERVABILITY  
+
+→ execution traces / snapshots / trajectory  
+
+
+
+## EXECUTION FLOW
 
 ```
-REGIME → ENDO → NODE → ORIGIN → CELL → GENERATION → TRACE  
+REALITY  
+↓  
+DECISION  
+↓  
+CELL EMISSION  
+↓  
+PROCESS  
+↓  
+REGIME_START  
+↓  
+ARTIFACT PRODUCTION  
+↓  
+REGIME_CLOSE  
+↓  
+EXECUTION TRACE  
 ```
 
-### Exposure:
 
-```
-HISTORY → EXTERNAL ACCESS  
-```
-
-### Derivation:
-
-```
-HISTORY → TRAJECTORY 
-```
-
----
-
-## Layers
-
-### STRUCTURAL EVENT CORE
-
-Defines the minimal condition under which an event exists.
-
-- irreversible occurrence  
-- no occurrence → no event  
-
-Structural change is not guaranteed per event.
-
----
-
-### REGIME
-
-Defines when execution exists.
-
-- bounded execution interval  
-- start condition  
-- closure condition  
-
-REGIME bounds execution.
-
----
-
-### ENDO
-
-Defines the structural rules for irreversible recording.
-
-- event materialization (cell)  
-- hash chaining  
-- generational partition  
-- append-only structure  
-
----
-
-### NODE
-
-Implements the ENDO structural architecture.
-
-- executes structural acts  
-- emits cells  
-- enforces constraints  
-- advances generation  
-- writes append-only history  
-
----
-
-### ORIGIN
-
-Emission point within a regime.
-
-- identified by origin_id  
-- defines a distinct emission source  
-
----
+## CORE ELEMENTS
 
 ### CELL
 
-Irreversible record of structural events.
+→ minimal irreversible record  
 
-- append-only  
-- hash chained  
-- generation-bound  
+### GENERATION 
+ 
+→ finite execution container  
 
-Cells preserve history.
+### NODE 
 
----
+→ execution runtime  
 
-### GENERATION
+### REGIME
 
-Bounded interval where structural acts occur.
+→ bounded execution phase  
 
-- groups cells  
-- defines execution scope  
-- becomes immutable after closure  
+### ARTIFACT 
 
-Generation bounds execution.
+→ frozen output  
 
----
+### EFO 
 
-### EXECUTION TRACE
+→ finite operational environment  
 
-Structural closure of a generation.
 
-- produced at generation end  
-- immutable  
-- represents closure state  
 
-Execution trace materializes closure.
+## PRINCIPLES
 
----
+- No mutation after emission  
+- No overwrite, only append  
+- Closure is irreversible  
+- Execution precedes interpretation  
+- If it is not recorded, it does not exist  
 
-### HISTORY
 
-Exposed system state.
 
-- execution_traces  
+## STRUCTURAL MODEL
+
+Execution produces records. 
+
+Records accumulate as history.
+
+Structure emerges from history. 
+ 
+History reveals trajectory.  
+
+
+
+## OUTPUT
+
+Artifacts are not drafts.  
+
+Artifacts are irreversible structural evidence.  
+
+They emerge only from bounded execution.  
+
+
+
+## OBSERVABILITY
+
+System state is exposed through:
+
+- execution traces  
 - snapshots  
-- latest  
+- latest state  
 
-History exposes without altering execution.
+Observability does not modify execution.  
+It only reflects it.  
 
----
 
-### ARTIFACTS
 
-Outputs derived from execution.
+## NOTE
 
-- CPR  
-- CE  
+This repository does not simulate execution.  
 
-Artifacts externalize structural results.
-
----
-
-### TRAJECTORY
-
-Derived structural behavior across generations.
-
-- intra-generational  
-- inter-generational  
-- growth vectors  
-- saturation  
-
-Trajectory is computed from history.  
-It does not alter execution.
-
----
-
-## Invariants
-
-- Structural events are irreversible  
-- Cells are append-only  
-- Generations define execution regimes  
-- Execution does not require interpretation  
-- History does not modify execution  
-- Trajectory does not modify execution  
-
----
-
-## Principle
-
-Execution produces records.  
-Records accumulate as history.  
-Structure emerges from history.  
-History reveals trajectory.
+It contains structural history.
