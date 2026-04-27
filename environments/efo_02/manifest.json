@@ -1,0 +1,23 @@
+{
+  "name": "EFO-02",
+  "type": "bounded_execution_environment",
+  "constraints": {
+    "artifact_limit": 2,
+    "duration_days": 15
+  },
+  "closure_conditions": [
+    "ARTIFACT_LIMIT",
+    "TIME_LIMIT"
+  ],
+  "freeze_mechanism": "deterministic",
+  "logging": {
+    "events": false,
+    "state": true,
+    "registry": true
+  },
+  "properties": {
+    "irreversible_cells": true,
+    "trajectory": true,
+    "external_recording": "node00-gamc"
+  }
+}

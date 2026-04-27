@@ -1,0 +1,9 @@
+{
+  "status": "CLOSED",
+  "start_date": "2026-04-22",
+  "artifacts_frozen": 2,
+  "closed": true,
+  "close_trigger": "ARTIFACT_LIMIT",
+  "closed_at": "2026-04-27T17:48:12.829256Z",
+  "hash": "f80b8b04548fdba2345e9d9401b3e2fb6791febf680e49e11feab5f2c8059201"
+}

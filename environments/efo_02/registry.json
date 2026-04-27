@@ -1,0 +1,12 @@
+{
+  "AF01_ASP": {
+    "status": "FROZEN",
+    "frozen_at": "2026-04-24T00:45:27.932977Z",
+    "hash": "cb81fd5e4c70ae6bf0052c8d7b4f6cace9b1663215171040c8a2e9e88ceb49dd"
+  },
+  "AF02_AVE": {
+    "status": "FROZEN",
+    "frozen_at": "2026-04-27T17:48:12.799522Z",
+    "hash": "36a4008d7b41e8ddfea972043deabdea4a3dfa74814cb064781caf17ce727a0d"
+  }
+}
