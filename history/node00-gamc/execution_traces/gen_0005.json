@@ -1,0 +1,59 @@
+{
+  "execution_trace_id": "et-gen_0005",
+  "generation": "gen_0005",
+  "anchors": {
+    "cycle_closed_hash": "201cb706d60d72aac9912051d16bbb6698b7b86c176c9e24738cb2f9ea576cbf",
+    "index_hash": "dfef1f0f914c6b2485c20c6b05b46d944fd1927701b9856c7bc2b2077a224f48",
+    "meta_hash": "4e2643d938993e62724e8a05dc5497d83b92aea623b323c701d1afaf97a913f2",
+    "last_chain_hash": "609fc6557832c937c06f01fb30173c799e244fc43b520bed633d9e17a3edc2ed"
+  },
+  "regime": {
+    "present": true,
+    "start": {
+      "generation": "gen_0005",
+      "anchor": "#17"
+    },
+    "events": []
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "closure": {
+    "closed": true,
+    "closed_at": "2026-04-23T23:26:00.266440Z",
+    "final_total": 31,
+    "threshold": 30,
+    "time_limit_seconds": 604800,
+    "closed_reason": "THRESHOLD",
+    "resolution": {
+      "seq_global": 31,
+      "cell_id": "ff850882-86a4-45da-a2ed-4295d6411cfd",
+      "hash": "609fc6557832c937c06f01fb30173c799e244fc43b520bed633d9e17a3edc2ed"
+    },
+    "integrity": {
+      "record_hash": "fa0a0e4b70eda018db32f4eba3896a1e3e499f0b9580a8a3631a255c574a8eb1",
+      "hash_algorithm": "SHA-256"
+    }
+  },
+  "resolution": {
+    "seq_global": 31,
+    "cell_id": "ff850882-86a4-45da-a2ed-4295d6411cfd",
+    "hash": "609fc6557832c937c06f01fb30173c799e244fc43b520bed633d9e17a3edc2ed",
+    "payload_raw": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0005\",\"closure_reason\":\"THRESHOLD\",\"integrity\":{\"status\":\"COMPUTED\",\"corrupted_count\":0,\"chain_break_count\":0,\"targets\":[]}}",
+    "anchor": "#31"
+  },
+  "evidence": {
+    "closure_ref": "node00-gamc/runtime/generations/gen_0005/cycle_closed.json",
+    "index_ref": "node00-gamc/runtime/generations/gen_0005/index.json",
+    "meta_ref": "node00-gamc/runtime/generations/gen_0005/gen_meta.json"
+  },
+  "integrity": {
+    "hash_algorithm": "SHA-256",
+    "record_hash": "b90ce1b44815624fd3a3c155ad97ac34524a6f36b4ca5cb3b4e504c1d9631080"
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "generation": "gen_0005",
+  "snapshot_id": "gen_0005_001",
+  "captured_at": "2026-04-22T18:02:22.024002Z",
+  "regime": {
+    "present": true
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0005",
+    "created_at": "2026-04-21T21:30:22.302912Z",
+    "time_limit_seconds": 604800,
+    "threshold": 30,
+    "max_cells_per_origin": 6,
+    "closed": false,
+    "config_snapshot": {
+      "threshold": 30,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 6,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3,
+      "runtime_version": "ENDO_NODE_V0.3",
+      "hash_mode": "v3"
+    },
+    "config_hash": "a5d9cb1ba94098e660895dbfc1d64985e9e4b85187bbfaf052406f2222b7c05c"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "index": {
+    "total_cells": 17,
+    "origins_active_count": 5,
+    "last_cell_at": "2026-04-22T00:02:59.761586Z",
+    "cells_by_origin": {
+      "0130cae3-1be4-41ed-bc8e-3ec373674eae": 2,
+      "8da24631-9746-418c-aa49-ad0112313bce": 6,
+      "a8e49d48-73c9-4268-8e04-a072b1fc4203": 6,
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 2,
+      "749149a1-846b-4027-9872-f0e57485d400": 1
+    },
+    "seq_global": 17,
+    "last_chain_hash": "ea4f6c4c6090ff6472bb1ffb8a40d53928250e720f6deb5f2502e500cc493574"
+  },
+  "cells": [
+    {
+      "cell_id": "745e6674-a9e4-4369-90b1-b04cc2453c99",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 1,
+      "payload": "{\"type\":\"REENTRY\",\"from_generation\":\"gen_0004\",\"to_generation\":\"gen_0005\",\"mode\":\"NO_STATE_CARRY\",\"continuity\":\"TRAJECTORY_PRESERVED\",\"reentry_anchor\":\"#17\"}",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          }
+        ]
+      },
+      "hash": "aeaf10f11a9f4ec8079e8afeae9d330bca2c07778c236324840dd89273b56f2f",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "5fe88454-e487-4e19-993d-50fd0e56409f",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 2,
+      "payload": "environment EFO_01 exposed execution layer → execution and observation decoupled from node runtime → @gen_0004#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "233abd077056410769469a8621a697ee2914ee8fe4c524d5095d15b9aa6b22e1",
+      "prev_hash": "aeaf10f11a9f4ec8079e8afeae9d330bca2c07778c236324840dd89273b56f2f"
+    },
+    {
+      "cell_id": "67fe978d-ac22-4f3b-b96c-e86ae92b8861",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 3,
+      "payload": "environment + regime layers integrated as execution-reading interface → system observation anchored beyond node history → @gen_0004#11",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 11
+              }
+            }
+          }
+        ]
+      },
+      "hash": "c8200b94fbafe8d35ef97e4c03f94a84b088b34d11adf6079cbb7e77fd7c1c23",
+      "prev_hash": "233abd077056410769469a8621a697ee2914ee8fe4c524d5095d15b9aa6b22e1"
+    },
+    {
+      "cell_id": "9ad3dadd-d148-422b-b244-efebe2857874",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 4,
+      "payload": "reading system reduced to 3 nuclear derivatives → exposed trajectory / semantic lines / trajectory lines → noise derivatives removed → @gen_0004#12",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          }
+        ]
+      },
+      "hash": "a99fbb156721267baa4fe8921492ac67bfad8cb1162cc23cbbac2881e5cffb13",
+      "prev_hash": "c8200b94fbafe8d35ef97e4c03f94a84b088b34d11adf6079cbb7e77fd7c1c23"
+    },
+    {
+      "cell_id": "ef35a62b-b3a1-4b42-9cde-b149d019ad3c",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 5,
+      "payload": "non-structural derived layers eliminated → execution-proven noise removed → system reading stabilized on minimal core → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "9492d896ba9f811645e614b4d280fa4d880d96ac59851e60e3c1752a4aeb73c2",
+      "prev_hash": "a99fbb156721267baa4fe8921492ac67bfad8cb1162cc23cbbac2881e5cffb13"
+    },
+    {
+      "cell_id": "4d4cda96-58f6-4176-967b-608679163648",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 6,
+      "payload": "internal: rapid reading layer defined → nuclear derivatives compressed into decision interface → observation → action loop enabled → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "0b4745dd397181e28b465e3c10f2a08df4dd7d108dcb11ed10710772a8ab3187",
+      "prev_hash": "9492d896ba9f811645e614b4d280fa4d880d96ac59851e60e3c1752a4aeb73c2"
+    },
+    {
+      "cell_id": "874ec7cb-3828-4d54-8e55-bb1bf728cb69",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 7,
+      "payload": "internal protocols: reading layers separated → core / secondary / optional → structural priority enforced → interpretative drift reduced → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "c936591ea6d7c5272cc7ea8c66ba42aa5db2cb85d4a89d7ab0154bb92f1fc747",
+      "prev_hash": "0b4745dd397181e28b465e3c10f2a08df4dd7d108dcb11ed10710772a8ab3187"
+    },
+    {
+      "cell_id": "ef50afac-11a3-4b2f-b134-b6a56de84628",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 8,
+      "payload": "trajectory derivative refactored → format aligned with generational structure → cross-gen readability improved → @gen_0002#7",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0002",
+              "cell": {
+                "seq_global": 7
+              }
+            }
+          }
+        ]
+      },
+      "hash": "2a353eeda2372d293e7e75f5990234a625a2ca4ae0386857768413d3b7080cf7",
+      "prev_hash": "c936591ea6d7c5272cc7ea8c66ba42aa5db2cb85d4a89d7ab0154bb92f1fc747"
+    },
+    {
+      "cell_id": "81d2e21f-a526-4054-a3ad-3e79a08016cb",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 9,
+      "payload": "public layers reorganized → linkedin / github / repo aligned as exposure surfaces → execution remains internal → @gen_0004#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "6e9eb69d540f753d85760e87753e8cfd83d60e3a61cdfb5cc4640ee81714e48c",
+      "prev_hash": "2a353eeda2372d293e7e75f5990234a625a2ca4ae0386857768413d3b7080cf7"
+    },
+    {
+      "cell_id": "6ca19d07-4781-4736-9cae-eef4fe19304d",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 10,
+      "payload": "first applied observation case instantiated → derived layer validated internally → not exposed → execution remains contained → @gen_0003#6",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 6
+              }
+            }
+          }
+        ]
+      },
+      "hash": "994094903adfee6b2ae33da6f2697eb1644266e0a2a23f649a4621cc755feb85",
+      "prev_hash": "6e9eb69d540f753d85760e87753e8cfd83d60e3a61cdfb5cc4640ee81714e48c"
+    },
+    {
+      "cell_id": "9e85d54d-d7d1-465d-9872-b783ae1248f2",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 11,
+      "payload": "EFO execution and ENDO history connected through anchor references → cross-layer trajectory becomes readable → #1 @gen_0004#10",
+      "references": {
+        "local": [
+          1
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 10
+              }
+            }
+          }
+        ]
+      },
+      "hash": "766fbd0967e2aecd6128f52d2462a88f9f2196ad43477b4af2edfaba488b0b37",
+      "prev_hash": "994094903adfee6b2ae33da6f2697eb1644266e0a2a23f649a4621cc755feb85"
+    },
+    {
+      "cell_id": "c02c3a02-217c-47de-91ef-6f2d3d601f9f",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 12,
+      "payload": "cells confirmed as sole source of truth across environments → all derived layers reduced to read-only projections → @gen_0004#4",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          }
+        ]
+      },
+      "hash": "e76032055d06125c405441f179a96e987fba6eca2b7dd712481e77d48e2e00a7",
+      "prev_hash": "766fbd0967e2aecd6128f52d2462a88f9f2196ad43477b4af2edfaba488b0b37"
+    },
+    {
+      "cell_id": "006ef395-f16a-4558-8a20-767b2c057a5d",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 13,
+      "payload": "command intergen : intergen reading activated → generational blocks become primary observation unit → trajectory readable without recomposition → @gen_0004#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "8b1eb9910cf2da89a77332dae8ddbda2566371dd50593c90e0acbd05cefbcd4b",
+      "prev_hash": "e76032055d06125c405441f179a96e987fba6eca2b7dd712481e77d48e2e00a7"
+    },
+    {
+      "cell_id": "df26d189-0636-443a-a85c-d397e797cab7",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 14,
+      "payload": "master structural system defined → ENDO core / EFO-regime layer / observability stack / real-world input integrated as single execution architecture → flow anchored: reality → emission → regime → artifact → export → trajectory → #3 #11 #12",
+      "references": {
+        "local": [
+          3,
+          11,
+          12
+        ],
+        "structural": []
+      },
+      "hash": "5c9e41dc93f3e9bccdc2209b1b6adf28b6896f7ba4eb1022ff4c954983e2b7fc",
+      "prev_hash": "8b1eb9910cf2da89a77332dae8ddbda2566371dd50593c90e0acbd05cefbcd4b"
+    },
+    {
+      "cell_id": "307efd1c-2ccb-4031-ba6e-9cda0f4c5d46",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 15,
+      "payload": "public structural map exposed → master system reduced to observable stack (reality → ENDO → regime → EFO → observability) → execution readable without internal layers → anchored to master system #14",
+      "references": {
+        "local": [
+          14
+        ],
+        "structural": []
+      },
+      "hash": "a6242e325d30fcddffc97a57205577ee86634e43341d4d4ea7821475af63feec",
+      "prev_hash": "5c9e41dc93f3e9bccdc2209b1b6adf28b6896f7ba4eb1022ff4c954983e2b7fc"
+    },
+    {
+      "cell_id": "ca08bd10-07f8-4df9-a61f-4df52ef5b00f",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 16,
+      "payload": "decision: no additional layers introduced → generational bounded execution prioritized → system reveals through iteration → #14",
+      "references": {
+        "local": [
+          14
+        ],
+        "structural": []
+      },
+      "hash": "8d0ce66c9190e43a4ee076dbc2a0cbec5f5e2e605ea2ea20259989226aaefb1a",
+      "prev_hash": "a6242e325d30fcddffc97a57205577ee86634e43341d4d4ea7821475af63feec"
+    },
+    {
+      "cell_id": "eb9b67d6-2f5a-41d8-9c81-942d9591ab1d",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 17,
+      "payload": "{\"type\":\"REGIME_START\",\"regime\":\"EFO_02\",\"environment_type\":\"bounded_execution_environment\",\"regime_type\":\"constrained_production\"}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "ea4f6c4c6090ff6472bb1ffb8a40d53928250e720f6deb5f2502e500cc493574",
+      "prev_hash": "8d0ce66c9190e43a4ee076dbc2a0cbec5f5e2e605ea2ea20259989226aaefb1a"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "a7f4e19dd3e292050e1ef6f0ed575d84daf800202ea8210b88cca2da13c26964",
+    "hash_algorithm": "SHA-256"
+  }
+}

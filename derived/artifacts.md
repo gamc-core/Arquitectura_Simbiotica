@@ -38,3 +38,19 @@ Reproducible under defined conditions.
 - [CE01](https://github.com/gamc-core/CE01-executable-structural-cell)  
 - [CE02](https://github.com/gamc-core/CE02-Deterministic-Cycle-Engine)  
 - [CE03](https://github.com/gamc-core/CE03-Generational-Structural-Runtime)
+
+---
+
+## AF — Artifact Foundations
+
+Origin(bounded regime):
+
+- [EFO-02](/environments/efo_02)
+
+A minimal protocol to determine whether a unit qualifies as an artifact.
+
+- [AF01-ASP](https://github.com/gamc-core/AF01-Artifact-Structural-Protocol)
+
+Minimal executable validator for artifact qualification.
+
+- [AF02-AVE](https://github.com/gamc-core/AF02-Artifact-Validator-Engine)

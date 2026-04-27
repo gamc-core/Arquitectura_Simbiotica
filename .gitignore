@@ -4,12 +4,10 @@ export
 core
 nodes
 history/node_piura_01
-prot_nuevos_node.md
 history/node00-gamc/structural_trajectory
 history/node00-gamc/trajectory_lines
 history/node00-gamc/semantic_lines
 history/node00-gamc/trajectory/legacy
-emission_protocol.md
 Observation_reading
 history/node00-gamc/global_core_view
 context/MASTER_SYSTEM_STRUCTURE.md

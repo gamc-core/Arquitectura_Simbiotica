@@ -1,0 +1,624 @@
+{
+  "generation": "gen_0005",
+  "snapshot_id": "gen_0005_002",
+  "captured_at": "2026-04-23T23:28:38.208741Z",
+  "regime": {
+    "present": true
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0005",
+    "created_at": "2026-04-21T21:30:22.302912Z",
+    "time_limit_seconds": 604800,
+    "threshold": 30,
+    "max_cells_per_origin": 6,
+    "closed": true,
+    "config_snapshot": {
+      "threshold": 30,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 6,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3,
+      "runtime_version": "ENDO_NODE_V0.3",
+      "hash_mode": "v3"
+    },
+    "config_hash": "a5d9cb1ba94098e660895dbfc1d64985e9e4b85187bbfaf052406f2222b7c05c",
+    "closed_at": "2026-04-23T23:26:00.266440Z",
+    "closed_reason": "THRESHOLD"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "index": {
+    "total_cells": 31,
+    "origins_active_count": 6,
+    "last_cell_at": "2026-04-23T23:26:00.262477Z",
+    "cells_by_origin": {
+      "0130cae3-1be4-41ed-bc8e-3ec373674eae": 3,
+      "8da24631-9746-418c-aa49-ad0112313bce": 6,
+      "a8e49d48-73c9-4268-8e04-a072b1fc4203": 6,
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 5,
+      "749149a1-846b-4027-9872-f0e57485d400": 6,
+      "7f60bd07-b030-4887-8a3b-0a7407d24f90": 5
+    },
+    "seq_global": 31,
+    "last_chain_hash": "609fc6557832c937c06f01fb30173c799e244fc43b520bed633d9e17a3edc2ed"
+  },
+  "cells": [
+    {
+      "cell_id": "745e6674-a9e4-4369-90b1-b04cc2453c99",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 1,
+      "payload": "{\"type\":\"REENTRY\",\"from_generation\":\"gen_0004\",\"to_generation\":\"gen_0005\",\"mode\":\"NO_STATE_CARRY\",\"continuity\":\"TRAJECTORY_PRESERVED\",\"reentry_anchor\":\"#17\"}",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 17
+              }
+            }
+          }
+        ]
+      },
+      "hash": "aeaf10f11a9f4ec8079e8afeae9d330bca2c07778c236324840dd89273b56f2f",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "5fe88454-e487-4e19-993d-50fd0e56409f",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 2,
+      "payload": "environment EFO_01 exposed execution layer → execution and observation decoupled from node runtime → @gen_0004#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "233abd077056410769469a8621a697ee2914ee8fe4c524d5095d15b9aa6b22e1",
+      "prev_hash": "aeaf10f11a9f4ec8079e8afeae9d330bca2c07778c236324840dd89273b56f2f"
+    },
+    {
+      "cell_id": "67fe978d-ac22-4f3b-b96c-e86ae92b8861",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 3,
+      "payload": "environment + regime layers integrated as execution-reading interface → system observation anchored beyond node history → @gen_0004#11",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 11
+              }
+            }
+          }
+        ]
+      },
+      "hash": "c8200b94fbafe8d35ef97e4c03f94a84b088b34d11adf6079cbb7e77fd7c1c23",
+      "prev_hash": "233abd077056410769469a8621a697ee2914ee8fe4c524d5095d15b9aa6b22e1"
+    },
+    {
+      "cell_id": "9ad3dadd-d148-422b-b244-efebe2857874",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 4,
+      "payload": "reading system reduced to 3 nuclear derivatives → exposed trajectory / semantic lines / trajectory lines → noise derivatives removed → @gen_0004#12",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          }
+        ]
+      },
+      "hash": "a99fbb156721267baa4fe8921492ac67bfad8cb1162cc23cbbac2881e5cffb13",
+      "prev_hash": "c8200b94fbafe8d35ef97e4c03f94a84b088b34d11adf6079cbb7e77fd7c1c23"
+    },
+    {
+      "cell_id": "ef35a62b-b3a1-4b42-9cde-b149d019ad3c",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 5,
+      "payload": "non-structural derived layers eliminated → execution-proven noise removed → system reading stabilized on minimal core → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "9492d896ba9f811645e614b4d280fa4d880d96ac59851e60e3c1752a4aeb73c2",
+      "prev_hash": "a99fbb156721267baa4fe8921492ac67bfad8cb1162cc23cbbac2881e5cffb13"
+    },
+    {
+      "cell_id": "4d4cda96-58f6-4176-967b-608679163648",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 6,
+      "payload": "internal: rapid reading layer defined → nuclear derivatives compressed into decision interface → observation → action loop enabled → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "0b4745dd397181e28b465e3c10f2a08df4dd7d108dcb11ed10710772a8ab3187",
+      "prev_hash": "9492d896ba9f811645e614b4d280fa4d880d96ac59851e60e3c1752a4aeb73c2"
+    },
+    {
+      "cell_id": "874ec7cb-3828-4d54-8e55-bb1bf728cb69",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 7,
+      "payload": "internal protocols: reading layers separated → core / secondary / optional → structural priority enforced → interpretative drift reduced → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "c936591ea6d7c5272cc7ea8c66ba42aa5db2cb85d4a89d7ab0154bb92f1fc747",
+      "prev_hash": "0b4745dd397181e28b465e3c10f2a08df4dd7d108dcb11ed10710772a8ab3187"
+    },
+    {
+      "cell_id": "ef50afac-11a3-4b2f-b134-b6a56de84628",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 8,
+      "payload": "trajectory derivative refactored → format aligned with generational structure → cross-gen readability improved → @gen_0002#7",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0002",
+              "cell": {
+                "seq_global": 7
+              }
+            }
+          }
+        ]
+      },
+      "hash": "2a353eeda2372d293e7e75f5990234a625a2ca4ae0386857768413d3b7080cf7",
+      "prev_hash": "c936591ea6d7c5272cc7ea8c66ba42aa5db2cb85d4a89d7ab0154bb92f1fc747"
+    },
+    {
+      "cell_id": "81d2e21f-a526-4054-a3ad-3e79a08016cb",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 9,
+      "payload": "public layers reorganized → linkedin / github / repo aligned as exposure surfaces → execution remains internal → @gen_0004#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "6e9eb69d540f753d85760e87753e8cfd83d60e3a61cdfb5cc4640ee81714e48c",
+      "prev_hash": "2a353eeda2372d293e7e75f5990234a625a2ca4ae0386857768413d3b7080cf7"
+    },
+    {
+      "cell_id": "6ca19d07-4781-4736-9cae-eef4fe19304d",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 10,
+      "payload": "first applied observation case instantiated → derived layer validated internally → not exposed → execution remains contained → @gen_0003#6",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0003",
+              "cell": {
+                "seq_global": 6
+              }
+            }
+          }
+        ]
+      },
+      "hash": "994094903adfee6b2ae33da6f2697eb1644266e0a2a23f649a4621cc755feb85",
+      "prev_hash": "6e9eb69d540f753d85760e87753e8cfd83d60e3a61cdfb5cc4640ee81714e48c"
+    },
+    {
+      "cell_id": "9e85d54d-d7d1-465d-9872-b783ae1248f2",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 11,
+      "payload": "EFO execution and ENDO history connected through anchor references → cross-layer trajectory becomes readable → #1 @gen_0004#10",
+      "references": {
+        "local": [
+          1
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 10
+              }
+            }
+          }
+        ]
+      },
+      "hash": "766fbd0967e2aecd6128f52d2462a88f9f2196ad43477b4af2edfaba488b0b37",
+      "prev_hash": "994094903adfee6b2ae33da6f2697eb1644266e0a2a23f649a4621cc755feb85"
+    },
+    {
+      "cell_id": "c02c3a02-217c-47de-91ef-6f2d3d601f9f",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 12,
+      "payload": "cells confirmed as sole source of truth across environments → all derived layers reduced to read-only projections → @gen_0004#4",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          }
+        ]
+      },
+      "hash": "e76032055d06125c405441f179a96e987fba6eca2b7dd712481e77d48e2e00a7",
+      "prev_hash": "766fbd0967e2aecd6128f52d2462a88f9f2196ad43477b4af2edfaba488b0b37"
+    },
+    {
+      "cell_id": "006ef395-f16a-4558-8a20-767b2c057a5d",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 13,
+      "payload": "command intergen : intergen reading activated → generational blocks become primary observation unit → trajectory readable without recomposition → @gen_0004#9",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 9
+              }
+            }
+          }
+        ]
+      },
+      "hash": "8b1eb9910cf2da89a77332dae8ddbda2566371dd50593c90e0acbd05cefbcd4b",
+      "prev_hash": "e76032055d06125c405441f179a96e987fba6eca2b7dd712481e77d48e2e00a7"
+    },
+    {
+      "cell_id": "df26d189-0636-443a-a85c-d397e797cab7",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 14,
+      "payload": "master structural system defined → ENDO core / EFO-regime layer / observability stack / real-world input integrated as single execution architecture → flow anchored: reality → emission → regime → artifact → export → trajectory → #3 #11 #12",
+      "references": {
+        "local": [
+          3,
+          11,
+          12
+        ],
+        "structural": []
+      },
+      "hash": "5c9e41dc93f3e9bccdc2209b1b6adf28b6896f7ba4eb1022ff4c954983e2b7fc",
+      "prev_hash": "8b1eb9910cf2da89a77332dae8ddbda2566371dd50593c90e0acbd05cefbcd4b"
+    },
+    {
+      "cell_id": "307efd1c-2ccb-4031-ba6e-9cda0f4c5d46",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 15,
+      "payload": "public structural map exposed → master system reduced to observable stack (reality → ENDO → regime → EFO → observability) → execution readable without internal layers → anchored to master system #14",
+      "references": {
+        "local": [
+          14
+        ],
+        "structural": []
+      },
+      "hash": "a6242e325d30fcddffc97a57205577ee86634e43341d4d4ea7821475af63feec",
+      "prev_hash": "5c9e41dc93f3e9bccdc2209b1b6adf28b6896f7ba4eb1022ff4c954983e2b7fc"
+    },
+    {
+      "cell_id": "ca08bd10-07f8-4df9-a61f-4df52ef5b00f",
+      "origin_id": "8da24631-9746-418c-aa49-ad0112313bce",
+      "origin_alias": "o8da246",
+      "seq_global": 16,
+      "payload": "decision: no additional layers introduced → generational bounded execution prioritized → system reveals through iteration → #14",
+      "references": {
+        "local": [
+          14
+        ],
+        "structural": []
+      },
+      "hash": "8d0ce66c9190e43a4ee076dbc2a0cbec5f5e2e605ea2ea20259989226aaefb1a",
+      "prev_hash": "a6242e325d30fcddffc97a57205577ee86634e43341d4d4ea7821475af63feec"
+    },
+    {
+      "cell_id": "eb9b67d6-2f5a-41d8-9c81-942d9591ab1d",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 17,
+      "payload": "{\"type\":\"REGIME_START\",\"regime\":\"EFO_02\",\"environment_type\":\"bounded_execution_environment\",\"regime_type\":\"constrained_production\"}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "ea4f6c4c6090ff6472bb1ffb8a40d53928250e720f6deb5f2502e500cc493574",
+      "prev_hash": "8d0ce66c9190e43a4ee076dbc2a0cbec5f5e2e605ea2ea20259989226aaefb1a"
+    },
+    {
+      "cell_id": "484f7109-a8d8-45af-8f44-eb6211236b35",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 18,
+      "payload": "artifact structural definition document defined → artifact existence conditions / types / protocol → structural validity clarified → @gen_0005#14",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 14
+              }
+            }
+          }
+        ]
+      },
+      "hash": "0a9a7308b392ead8f9525faba3e12e1e4027500a1adde641ee353b90a2da945f",
+      "prev_hash": "ea4f6c4c6090ff6472bb1ffb8a40d53928250e720f6deb5f2502e500cc493574"
+    },
+    {
+      "cell_id": "9baa6d0b-4ff5-4d25-861d-acb54bb94ff4",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "o7f60bd",
+      "seq_global": 19,
+      "payload": "artifact_01 defined → AVE (artifact validation engine) established as executable validation structure → artifact validity becomes operational → #18",
+      "references": {
+        "local": [
+          18
+        ],
+        "structural": []
+      },
+      "hash": "b7c9af31076b9a9c416d9729fc1569d7e1b554651dfd7f098d438ea726560b3f",
+      "prev_hash": "0a9a7308b392ead8f9525faba3e12e1e4027500a1adde641ee353b90a2da945f"
+    },
+    {
+      "cell_id": "97481258-80e5-4a63-95f2-6914e6e420d3",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "o7f60bd",
+      "seq_global": 20,
+      "payload": "artifact ordering revised → artifact_01 reassigned to artifact structural definition document → artifact_02 reassigned to AVE (artifact validation engine) → #18 #19",
+      "references": {
+        "local": [
+          18,
+          19
+        ],
+        "structural": []
+      },
+      "hash": "d91d9fb07425c53dc26bf5284a82e5159e91fd311c3ffa8e904c44f0f7306d42",
+      "prev_hash": "b7c9af31076b9a9c416d9729fc1569d7e1b554651dfd7f098d438ea726560b3f"
+    },
+    {
+      "cell_id": "94fd213f-22af-4caa-b825-28fc9d08685c",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 21,
+      "payload": "AF01_Artifact Structural Protocol defined → protocol replaces document definition → artifact identity stabilized → #18 → #20",
+      "references": {
+        "local": [
+          18,
+          20
+        ],
+        "structural": []
+      },
+      "hash": "f610085a9af0f48a8efa7bca7101239872fdedf9a141d489c492ef297fef9216",
+      "prev_hash": "d91d9fb07425c53dc26bf5284a82e5159e91fd311c3ffa8e904c44f0f7306d42"
+    },
+    {
+      "cell_id": "17b4da26-e428-4189-a990-39577f96998f",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 22,
+      "payload": "AF01_ASP artifact construction activated → #21",
+      "references": {
+        "local": [
+          21
+        ],
+        "structural": []
+      },
+      "hash": "5fee9c7c654a9e02bea9ab9452084cc226f8f33f55630296368fcb6395409906",
+      "prev_hash": "f610085a9af0f48a8efa7bca7101239872fdedf9a141d489c492ef297fef9216"
+    },
+    {
+      "cell_id": "5c53ce17-ebe8-42f9-8620-9abe0164b2ca",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "o7f60bd",
+      "seq_global": 23,
+      "payload": "AF01_ASP structure defined → core / protocol / structure / validation / scope / meta / cases separated → readability enforced → #22",
+      "references": {
+        "local": [
+          22
+        ],
+        "structural": []
+      },
+      "hash": "31a5d4a49ae0dcb06ddbe1e6d26b5ade30dd70e63ec80d8f7f56c8c884eb609e",
+      "prev_hash": "5fee9c7c654a9e02bea9ab9452084cc226f8f33f55630296368fcb6395409906"
+    },
+    {
+      "cell_id": "0f5e68f0-9a94-4550-8321-18c29c34aa4c",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "o7f60bd",
+      "seq_global": 24,
+      "payload": "AF01_ASP README defined → navigation layer established → layer separation exposed → #23",
+      "references": {
+        "local": [
+          23
+        ],
+        "structural": []
+      },
+      "hash": "9918983258271aee9ceb11daf980efea553a84ece687e1b435f3bb560a36e7af",
+      "prev_hash": "31a5d4a49ae0dcb06ddbe1e6d26b5ade30dd70e63ec80d8f7f56c8c884eb609e"
+    },
+    {
+      "cell_id": "986b9872-ab08-405b-9d64-0a958f199140",
+      "origin_id": "7f60bd07-b030-4887-8a3b-0a7407d24f90",
+      "origin_alias": "o7f60bd",
+      "seq_global": 25,
+      "payload": "AF01_ASP definition defined → artifact concept formalized → core layer anchored → #24",
+      "references": {
+        "local": [
+          24
+        ],
+        "structural": []
+      },
+      "hash": "62a0140a1832f1f1edcd7be8c5e97806381396a28d5456c5fee0ba3bc78ef3c5",
+      "prev_hash": "9918983258271aee9ceb11daf980efea553a84ece687e1b435f3bb560a36e7af"
+    },
+    {
+      "cell_id": "c43beed4-53b3-450a-b44f-ef9e9764f78f",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 26,
+      "payload": "AF01_ASP invariants defined → structural conditions constrained → core layer enforced → #25",
+      "references": {
+        "local": [
+          25
+        ],
+        "structural": []
+      },
+      "hash": "8e4b93ab60c688eab8f2eac6160e43db6d216607215e837b6eb7b55498b233f3",
+      "prev_hash": "62a0140a1832f1f1edcd7be8c5e97806381396a28d5456c5fee0ba3bc78ef3c5"
+    },
+    {
+      "cell_id": "756f87ac-d98a-48e8-a1c7-b736d89cbc97",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 27,
+      "payload": "AF01_ASP types defined → artifact classification established → structure layer extended → #26",
+      "references": {
+        "local": [
+          26
+        ],
+        "structural": []
+      },
+      "hash": "906bad92e45880c0b753eab92cc668638fd8f1874c7ce92035bb4cf7a4da0c47",
+      "prev_hash": "8e4b93ab60c688eab8f2eac6160e43db6d216607215e837b6eb7b55498b233f3"
+    },
+    {
+      "cell_id": "32c123b7-97a0-4265-a5d8-9f3974daf767",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 28,
+      "payload": "AF01_ASP structure refactored → layers separated explicitly → composition stabilized → #27",
+      "references": {
+        "local": [
+          27
+        ],
+        "structural": []
+      },
+      "hash": "90761c3f561519974aacc4e4ab7e85cbfd8b4789a5aa8634c0d5ec97946da9ee",
+      "prev_hash": "906bad92e45880c0b753eab92cc668638fd8f1874c7ce92035bb4cf7a4da0c47"
+    },
+    {
+      "cell_id": "6e2dab4a-5284-4360-9ddd-2bf4691a69e7",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 29,
+      "payload": "AF01_ASP structure operational definition defined → reading order + composition enforced → #28",
+      "references": {
+        "local": [
+          28
+        ],
+        "structural": []
+      },
+      "hash": "de73a7f8b6cf2e34e9353928c2d7953327af3f544d4cc5c4b1294459098ecf89",
+      "prev_hash": "90761c3f561519974aacc4e4ab7e85cbfd8b4789a5aa8634c0d5ec97946da9ee"
+    },
+    {
+      "cell_id": "0b5263d9-a2fc-4fe0-acb2-054d2cd82bb1",
+      "origin_id": "749149a1-846b-4027-9872-f0e57485d400",
+      "origin_alias": "o749149",
+      "seq_global": 30,
+      "payload": "AF01_ASP core vs optional layers defined → minimal protocol isolated → noise removed → #29",
+      "references": {
+        "local": [
+          29
+        ],
+        "structural": []
+      },
+      "hash": "19c4a95e3b2dfaa2ff95cb615749c75d4852cd4c06c001422f242ffb6fb4403d",
+      "prev_hash": "de73a7f8b6cf2e34e9353928c2d7953327af3f544d4cc5c4b1294459098ecf89"
+    },
+    {
+      "cell_id": "ff850882-86a4-45da-a2ed-4295d6411cfd",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 31,
+      "payload": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0005\",\"closure_reason\":\"THRESHOLD\",\"integrity\":{\"status\":\"COMPUTED\",\"corrupted_count\":0,\"chain_break_count\":0,\"targets\":[]}}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "609fc6557832c937c06f01fb30173c799e244fc43b520bed633d9e17a3edc2ed",
+      "prev_hash": "19c4a95e3b2dfaa2ff95cb615749c75d4852cd4c06c001422f242ffb6fb4403d"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "2ab714371f65100ad0b15b4282408381dee3b2dc6a9f97d4a316399a1b081b5d",
+    "hash_algorithm": "SHA-256"
+  }
+}

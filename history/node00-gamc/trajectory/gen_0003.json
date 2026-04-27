@@ -48,12 +48,12 @@
     "structure": {
         "_": "---------------- STRUCTURE ----------------",
         "CORE": {
-            "regime_behavior": "oscillating"
+            "regime_behavior": "unknown"
         },
         "SECONDARY": {
-            "origin_persistence": 0.0,
-            "origin_turnover": 1.0,
-            "origin_persistence_historical": 0.1667
+            "origin_persistence": null,
+            "origin_turnover": null,
+            "origin_persistence_historical": null
         }
     },
     "lineage": {
@@ -77,7 +77,7 @@
         }
     },
     "integrity": {
-        "trajectory_hash": "4daae1eb49fc17ea4657eca06fa7cc1a23151f05c7486f391d1d368b95b3ead1",
+        "trajectory_hash": "f829e34734ebd9219a6ae630de3fda1ff183b2080516bca15e251b35dd81add3",
         "hash_algorithm": "SHA-256"
     }
 }

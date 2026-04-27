@@ -63,6 +63,6 @@ see:
 
 ---
 
----Note:
+## Note:
 
 First artifact freeze (CE01) occurred before runtime logging was active.
