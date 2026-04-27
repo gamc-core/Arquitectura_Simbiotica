@@ -65,8 +65,8 @@ You are observing:
 - [artifacts](derived/artifacts)  
 → outputs derived from execution
 
-- [efo 01](environments/efo_01)  
-→ bounded production environment (pre-ENDO) where CE01–CE03 artifacts were produced without irreversible recording
+- [environments](environments/)  
+→ bounded execution environments (EFO) where artifacts are produced under constrained conditions
 
 ---
 
