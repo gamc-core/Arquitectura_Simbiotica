@@ -53,7 +53,7 @@ PROCESS
 ↓  
 REGIME_START  
 ↓  
-ARTIFACT PRODUCTION  
+ARTIFACT PRODUCTION 
 ↓  
 REGIME_CLOSE  
 ↓  
@@ -82,6 +82,12 @@ EXECUTION TRACE
 ### ARTIFACT 
 
 → frozen output  
+
+### VALIDATOR
+
+→ executable validation engine (AVE)  
+→ validates artifact qualification under ASP
+→ external to execution flow
 
 ### EFO 
 
@@ -117,7 +123,9 @@ Artifacts are not drafts.
 
 Artifacts are irreversible structural evidence.  
 
-They emerge only from bounded execution.  
+They emerge only from bounded execution.
+
+Validation (AVE) determines qualification, not existence.
 
 
 
