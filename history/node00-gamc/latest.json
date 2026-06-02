@@ -8,16 +8,16 @@
     "node_path": "node00-gamc"
   },
   "status": {
-    "closed": false
+    "closed": true
   },
   "runtime": {
     "hash_mode": "v3",
     "runtime_version": "ENDO_NODE_V0.3"
   },
   "index": {
-    "total_cells": 6,
-    "origins_active_count": 2,
-    "last_chain_hash": "9af9ab87a289fb729d9afe39e97c286690b6b80407479b80918e2d700f6b4d0c"
+    "total_cells": 17,
+    "origins_active_count": 4,
+    "last_chain_hash": "0302ab77c91f59983b780e0dc1fa224863c599824bfc70600d0f4e0c42775c87"
   },
   "evidence": {
     "index_ref": "node00-gamc/runtime/generations/gen_0008/index.json",

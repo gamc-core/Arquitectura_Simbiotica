@@ -1,0 +1,446 @@
+{
+  "generation": "gen_0008",
+  "snapshot_id": "gen_0008_002",
+  "captured_at": "2026-06-01T23:06:44.791709Z",
+  "regime": {
+    "present": false
+  },
+  "node": {
+    "node_id": "node00-gamc",
+    "node_path": "node00-gamc"
+  },
+  "generation_meta": {
+    "generation": "gen_0008",
+    "created_at": "2026-05-22T18:32:16.861401Z",
+    "time_limit_seconds": 604800,
+    "threshold": 30,
+    "max_cells_per_origin": 6,
+    "closed": true,
+    "config_snapshot": {
+      "threshold": 30,
+      "time_limit_seconds": 604800,
+      "max_cells_per_origin": 6,
+      "max_generations": 9999,
+      "payload_max_chars": 2000,
+      "payload_min_chars": 3,
+      "runtime_version": "ENDO_NODE_V0.3",
+      "hash_mode": "v3"
+    },
+    "config_hash": "a5d9cb1ba94098e660895dbfc1d64985e9e4b85187bbfaf052406f2222b7c05c",
+    "closed_at": "2026-05-29T19:59:48.363932Z",
+    "closed_reason": "TIME"
+  },
+  "runtime": {
+    "hash_mode": "v3",
+    "runtime_version": "ENDO_NODE_V0.3"
+  },
+  "index": {
+    "total_cells": 17,
+    "origins_active_count": 4,
+    "last_cell_at": "2026-05-29T19:59:48.360967Z",
+    "cells_by_origin": {
+      "0130cae3-1be4-41ed-bc8e-3ec373674eae": 2,
+      "c9565576-7084-49a0-a9fa-b3422fe8c148": 6,
+      "a8e49d48-73c9-4268-8e04-a072b1fc4203": 6,
+      "61791a1d-8de1-47b3-a158-29e10b47a24d": 3
+    },
+    "seq_global": 17,
+    "last_chain_hash": "0302ab77c91f59983b780e0dc1fa224863c599824bfc70600d0f4e0c42775c87"
+  },
+  "cells": [
+    {
+      "cell_id": "df131031-dcae-41a5-94c2-77ef4fb5f83c",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 1,
+      "payload": "{\"type\":\"REENTRY\",\"from_generation\":\"gen_0007\",\"to_generation\":\"gen_0008\",\"mode\":\"NO_STATE_CARRY\",\"continuity\":\"TRAJECTORY_PRESERVED\",\"reentry_anchor\":\"#18\"}",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 18
+              }
+            }
+          }
+        ]
+      },
+      "hash": "e2acda1856b601525c3dd6a0d75970964a5c849834170e3c116d2caabe3b15d1",
+      "prev_hash": "GENESIS"
+    },
+    {
+      "cell_id": "cc780cf1-0bd2-41d0-b7c0-d4e11c126f9c",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 2,
+      "payload": "derived semantic drift detected → snapshot regime.present interpreted as terminal active-state instead of structural regime existence → execution trace semantics remain aligned with runtime history → @gen_0007#5 → @gen_0007#8 ",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 5
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 8
+              }
+            }
+          }
+        ]
+      },
+      "hash": "720bbe32e1a7e63fb2d864dd481433e09bb2a3b0c1bb08f070b8fe04c4d655c3",
+      "prev_hash": "e2acda1856b601525c3dd6a0d75970964a5c849834170e3c116d2caabe3b15d1"
+    },
+    {
+      "cell_id": "13f274b5-0cbe-41f4-9bcb-8f746ab57634",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 3,
+      "payload": "FM22 instantiated → semantic desynchronization confirmed between snapshot and execution trace derived layers → observability coherence degraded despite runtime integrity preservation → #2",
+      "references": {
+        "local": [
+          2
+        ],
+        "structural": []
+      },
+      "hash": "f7b98bf508751b09cb88efec0eb617ddf47ef7419e74c3406a8330d91e285a0a",
+      "prev_hash": "720bbe32e1a7e63fb2d864dd481433e09bb2a3b0c1bb08f070b8fe04c4d655c3"
+    },
+    {
+      "cell_id": "641d5bbf-486f-48da-9a60-bfb8dfbc5121",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 4,
+      "payload": "snapshot regime detection aligned with execution trace semantics → regime existence derived from structural history instead of terminal runtime state → derived observability layers synchronized → #2 → #3 → @gen_0007#5 → @gen_0007#8",
+      "references": {
+        "local": [
+          2,
+          3
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 5
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 8
+              }
+            }
+          }
+        ]
+      },
+      "hash": "fb81f599681b81a8d4ad143d082bc743f1f70c4329aae8d040c82bde1d9638e3",
+      "prev_hash": "f7b98bf508751b09cb88efec0eb617ddf47ef7419e74c3406a8330d91e285a0a"
+    },
+    {
+      "cell_id": "664dfca2-0a99-40c8-9b54-ed7c38624b67",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 5,
+      "payload": "corrected snapshot emitted and validated → regime.present aligned across snapshot and execution trace derived layers → prior exports preserved as historical evidence of semantic drift → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": []
+      },
+      "hash": "8b6749e656b9da6a9e580fc1b3ce2b4165de40ba9e4c59770f146c8078d85cc6",
+      "prev_hash": "fb81f599681b81a8d4ad143d082bc743f1f70c4329aae8d040c82bde1d9638e3"
+    },
+    {
+      "cell_id": "ceaf4754-6dcc-4f3d-9903-68e820831c44",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 6,
+      "payload": "derived trajectory exports constrained against retroactive overwrite → closed generation projections preserved as frozen observability layers → FM16 containment extended → @gen_0006#35 → @gen_0007#4 → @gen_0008#4",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 35
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0007",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          }
+        ]
+      },
+      "hash": "9af9ab87a289fb729d9afe39e97c286690b6b80407479b80918e2d700f6b4d0c",
+      "prev_hash": "8b6749e656b9da6a9e580fc1b3ce2b4165de40ba9e4c59770f146c8078d85cc6"
+    },
+    {
+      "cell_id": "8966a83d-b64f-4653-a0c0-2a26b9e7a970",
+      "origin_id": "c9565576-7084-49a0-a9fa-b3422fe8c148",
+      "origin_alias": "oc95655",
+      "seq_global": 7,
+      "payload": "derived observability rebuild scope reduced to active generation emission only → append-only continuity restored across trajectory and global_core_view layers → FM22 drift surface reduced → @gen_0008#2 → #4",
+      "references": {
+        "local": [
+          4
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0008",
+              "cell": {
+                "seq_global": 2
+              }
+            }
+          }
+        ]
+      },
+      "hash": "117db181aaaf75158593713ebb37ec8d7cd219e2b383f7c17624ce471bf71e21",
+      "prev_hash": "9af9ab87a289fb729d9afe39e97c286690b6b80407479b80918e2d700f6b4d0c"
+    },
+    {
+      "cell_id": "416215df-9d69-46f6-ab94-83e6f202b39f",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 8,
+      "payload": "cross-node snapshot export drift exposed through node_piura_01 observability output → regime detection corrected for historical closure reconstruction → FM22 containment extended → #4 → #5",
+      "references": {
+        "local": [
+          4,
+          5
+        ],
+        "structural": []
+      },
+      "hash": "2e175615ec6d94157f4e2727a90080906552e45b3b80ccaff76984e678f844ba",
+      "prev_hash": "117db181aaaf75158593713ebb37ec8d7cd219e2b383f7c17624ce471bf71e21"
+    },
+    {
+      "cell_id": "9f1a368d-6534-40ee-b11a-dcc2161eeffb",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 9,
+      "payload": "correction #7 → derived observability rebuild scope classified under FM16 structural containment (not FM22 semantic drift) → failure boundary taxonomy realigned ",
+      "references": {
+        "local": [
+          7
+        ],
+        "structural": []
+      },
+      "hash": "dca0d2f542358497501dabf51d8fd3898d0d4be4e74d674cfac9321de3cb4354",
+      "prev_hash": "2e175615ec6d94157f4e2727a90080906552e45b3b80ccaff76984e678f844ba"
+    },
+    {
+      "cell_id": "1b10ae1e-7781-46ff-9aba-3475c314fa69",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 10,
+      "payload": "derived export diagnostic instrumentation introduced → export execution visibility surfaced across observability layers → silent export-state divergence became locally detectable → #4 → #5",
+      "references": {
+        "local": [
+          4,
+          5
+        ],
+        "structural": []
+      },
+      "hash": "f0b28add38c60dcf256f5636f655f4e392603499d5dea908db0052df5263932c",
+      "prev_hash": "dca0d2f542358497501dabf51d8fd3898d0d4be4e74d674cfac9321de3cb4354"
+    },
+    {
+      "cell_id": "3422a39c-d257-400b-84a2-0b53540489b1",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 11,
+      "payload": "derived export execution constrained to explicit diagnostic checkpoints → closure-bound observability verification enforced → @gen_0006#35 → #10",
+      "references": {
+        "local": [
+          10
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0006",
+              "cell": {
+                "seq_global": 35
+              }
+            }
+          }
+        ]
+      },
+      "hash": "15fd34b5463d99243f3f148d6139efa4e3f8b62ea60b5cc8c55f7803460b888d",
+      "prev_hash": "f0b28add38c60dcf256f5636f655f4e392603499d5dea908db0052df5263932c"
+    },
+    {
+      "cell_id": "7665ae7d-ead1-46dc-a4ad-1f92d603168c",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 12,
+      "payload": "commit precision regime upgraded to v2 → exact file-surface mutation replaced layer-level commit abstraction → structural auditability enforced → #10 → #11",
+      "references": {
+        "local": [
+          10,
+          11
+        ],
+        "structural": []
+      },
+      "hash": "c228d4536657ba7561b0b3b5356f8b7ac1ab1303a60a1a127a86f28bca40db89",
+      "prev_hash": "15fd34b5463d99243f3f148d6139efa4e3f8b62ea60b5cc8c55f7803460b888d"
+    },
+    {
+      "cell_id": "9ac89092-faf4-4e43-be2d-528112e8b57e",
+      "origin_id": "a8e49d48-73c9-4268-8e04-a072b1fc4203",
+      "origin_alias": "oa8e49d",
+      "seq_global": 13,
+      "payload": "FM29 snapshot diagnostic replay executed → observable checkpoints verified → validation evidence captured → #10 → #12",
+      "references": {
+        "local": [
+          10,
+          12
+        ],
+        "structural": []
+      },
+      "hash": "7a20632185345f40e3435e848b18d5e610115c71eb3a14f7fcbef7c65d60d267",
+      "prev_hash": "c228d4536657ba7561b0b3b5356f8b7ac1ab1303a60a1a127a86f28bca40db89"
+    },
+    {
+      "cell_id": "aba8a4e0-1ba0-43e5-891e-253483c61fdf",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 14,
+      "payload": "canonical runtime lineage frozen and committed → v0.1–v0.3 sealed as historical core → v0.4 declared active mutation branch → @gen_0004#12 → @gen_0004#13",
+      "references": {
+        "local": [],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 12
+              }
+            }
+          },
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0004",
+              "cell": {
+                "seq_global": 13
+              }
+            }
+          }
+        ]
+      },
+      "hash": "97a32d7dd9a3c83d6f46673c267d8a9ed5b4d112aa2fb6eadc449dffb11e6b0c",
+      "prev_hash": "7a20632185345f40e3435e848b18d5e610115c71eb3a14f7fcbef7c65d60d267"
+    },
+    {
+      "cell_id": "76515253-f0a1-4f22-b473-2fc2400b5e45",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 15,
+      "payload": "FM22 replay validation executed → semantic convergence confirmed → #2 → #4 → #5",
+      "references": {
+        "local": [
+          2,
+          4,
+          5
+        ],
+        "structural": []
+      },
+      "hash": "9170286ba840aeb85a454601fcd6a94580411b25dd02f164bf82e6370cbfe0ac",
+      "prev_hash": "97a32d7dd9a3c83d6f46673c267d8a9ed5b4d112aa2fb6eadc449dffb11e6b0c"
+    },
+    {
+      "cell_id": "2f0d20aa-b131-4d1c-ae8e-cc5166e6be42",
+      "origin_id": "61791a1d-8de1-47b3-a158-29e10b47a24d",
+      "origin_alias": "o61791a",
+      "seq_global": 16,
+      "payload": "temporal observability layer activated → generational cadence exposed through closure / reentry / density readings → first temporal structural reading emitted → @gen_0005#4 → #11",
+      "references": {
+        "local": [
+          11
+        ],
+        "structural": [
+          {
+            "ref_type": "inter_generation",
+            "target": {
+              "node_id": "node00-gamc",
+              "generation": "gen_0005",
+              "cell": {
+                "seq_global": 4
+              }
+            }
+          }
+        ]
+      },
+      "hash": "19dbe96d4383a3041303575150169b1d6f6af8f6a1c3daa4ae03bdb5d63b78dd",
+      "prev_hash": "9170286ba840aeb85a454601fcd6a94580411b25dd02f164bf82e6370cbfe0ac"
+    },
+    {
+      "cell_id": "e669b6e8-e26c-42e4-ad6e-231384d99af3",
+      "origin_id": "0130cae3-1be4-41ed-bc8e-3ec373674eae",
+      "origin_alias": "o0130ca",
+      "seq_global": 17,
+      "payload": "{\"type\":\"RESOLUTION\",\"scope\":\"GENERATION\",\"generation\":\"gen_0008\",\"closure_reason\":\"TIME\",\"integrity\":{\"status\":\"CLEAN\",\"corrupted_count\":0,\"chain_break_count\":0,\"corruption\":{\"hash_mismatch\":[],\"chain_break\":[],\"invalid_reference\":[],\"other\":[]}}}",
+      "references": {
+        "local": [],
+        "structural": []
+      },
+      "hash": "0302ab77c91f59983b780e0dc1fa224863c599824bfc70600d0f4e0c42775c87",
+      "prev_hash": "19dbe96d4383a3041303575150169b1d6f6af8f6a1c3daa4ae03bdb5d63b78dd"
+    }
+  ],
+  "integrity": {
+    "snapshot_hash": "8641489bef173ebac696c1a56dbff9d7647982385dd5f2b47cb716570c219e33",
+    "hash_algorithm": "SHA-256"
+  }
+}
